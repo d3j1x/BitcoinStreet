@@ -1,10 +1,19 @@
 <script>
+
 	import Header from './Header.svelte';
+	import Sitename from './Sitename.svelte';
 	import './styles.css';
+
 </script>
 
 <div class="app">
+
+	<Sitename />
+
+
 	<Header />
+
+
 
 	<main>
 		<slot />
