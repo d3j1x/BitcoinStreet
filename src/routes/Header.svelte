@@ -18,7 +18,7 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Street</a>
+				<a href="/">STREET</a>
 			</li>
 
 			<li aria-current={$page.url.pathname.startsWith('/freecoins') ? 'page' : undefined}>
@@ -122,9 +122,9 @@
 		padding: 0 0.5rem;
 		/* color: var(--color-text); */
 		color: black;
-		font-weight: 700;
+		font-weight: 800;
 		/* font-size: 0.8rem; */
-		font-size: 0.95rem;
+		font-size: 0.9rem;
 		/* text-transform: uppercase; */
 		letter-spacing: 0.1em;
 		text-decoration: none;
