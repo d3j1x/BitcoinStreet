@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>Free Coins</title>
+	<meta name="description" content="TOP & BEST | FREE CRYPTO COINS | FREE FAUCET | FREE MINING WEBSITE" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>BEST OF</h1>
 
 	<p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
