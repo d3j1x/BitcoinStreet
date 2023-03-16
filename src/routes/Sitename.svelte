@@ -30,6 +30,7 @@
   });
 </script>
 
+
 <div id="loading">
     <div class="waviy">
 <span style="--i:1">₿</span>
@@ -62,12 +63,18 @@ align-items: center;">
 
 
 
+
 <style>
+
+
+
+
     #loading {
   background-color: #111;
   display: flex;
   justify-content: center;
   align-items: center;
+  
   
 }
 .waviy {
