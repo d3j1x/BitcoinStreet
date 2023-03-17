@@ -1,0 +1,66 @@
+
+<script>
+// @ts-nocheck
+
+  import { onMount } from 'svelte';
+
+  let satoshi = 0;
+  let usd = 0;
+
+  const fetchPrice = async () => {
+    const response = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
+    const data = await response.json();
+    const rate = data.bpi.USD.rate_float;
+    usd = (satoshi * rate / 100000000).toFixed(2);
+  };
+
+  onMount(fetchPrice);
+
+  function handleInput(event) {
+    satoshi = event.target.value;
+    fetchPrice();
+  }
+</script>
+
+
+<div class="bitcoin-price">
+    <h3><span style="color: #f2a900;">BTC:</span> Satoshi To USD</h3>
+    <input class="bitcoin-price__input" type="number" bind:value={satoshi} on:input={handleInput} placeholder="Enter Satoshi amount" />
+    <p class="bitcoin-price__output">Price: ${usd}</p>
+</div>
+
+<style>
+    .bitcoin-price {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+      border: 5px solid black;
+      border-radius: 8px;
+    }
+  
+    .bitcoin-price__input {
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      border: 2px solid #1c1c1e;
+      border-radius: 8px;
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    .bitcoin-price__input:focus {
+      outline: none;
+      border-color: #0077ff;
+      box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3);
+    }
+  
+    .bitcoin-price__output {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: navy;
+      margin-top: 1rem;
+    }
+  </style>

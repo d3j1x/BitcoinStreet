@@ -23,7 +23,7 @@
     }
   }
 
-  intervalId = setInterval(fetchBitcoinPrice, 5000);
+  intervalId = setInterval(fetchBitcoinPrice, 10000);
 
   onDestroy(() => {
     clearInterval(intervalId);
@@ -50,7 +50,7 @@
 </div>
 </div>
 
-<span style="color:#3DFF33;font-size: 25px;background-color: #111;
+<span style="color:#3DFF33;font-size: 25px;background-color: black;
 display: flex;
 justify-content: center;
 align-items: center;">
@@ -70,7 +70,7 @@ align-items: center;">
 
 
     #loading {
-  background-color: #111;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +83,7 @@ align-items: center;">
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   color: yellow;
   text-transform: uppercase;
   animation: flip 4s infinite;

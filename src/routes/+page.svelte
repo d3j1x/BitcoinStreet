@@ -5,6 +5,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 
+	import BitcoinPrice from './components/BitcoinPrice.svelte';
 	
 </script>
 
@@ -14,7 +15,7 @@
 </svelte:head>
 
 
-
+<BitcoinPrice />
 
 <section>
 	<h1>
