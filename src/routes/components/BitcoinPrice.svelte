@@ -45,14 +45,15 @@
       border: 2px solid #1c1c1e;
       border-radius: 8px;
       text-align: center;
-      width: 100%;
+      width: 90%;
       max-width: 400px;
-      margin-top: 0.5rem;
-      margin-bottom: 1rem;
+      margin: 0.5rem;
+      
     }
   
     .bitcoin-price__input:focus {
       outline: none;
+      width: 92%;
       border-color: #0077ff;
       box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3);
     }
@@ -61,6 +62,6 @@
       font-size: 1.5rem;
       font-weight: bold;
       color: navy;
-      margin-top: 1rem;
+      
     }
   </style>
