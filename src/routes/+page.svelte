@@ -11,7 +11,7 @@
 
 <svelte:head>
 	<title>Bitcoin Street</title>
-	<meta name="description" content="Bitcoin Street app | Crypto News | Top Free Faucet | Trusted Website | Mining - Trading - Investing" />
+	<meta name="description" content="BTC LIVE PRICE $ | Crypto News | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing" />
 </svelte:head>
 
 

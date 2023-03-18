@@ -1,16 +1,24 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
+	// import logo from '$lib/images/svelte-logo.svg';
+	import logo from '$lib/images/logo.png';
 	import github from '$lib/images/github.svg';
 
 </script>
 
 <header>
-	<div class="corner">
+	<!-- <div class="corner">
 		<a href="https://kit.svelte.dev">
 			<img src={logo} alt="SvelteKit" />
 		</a>
+	</div> -->
+
+	<div class="corner logo-container" style="background-color: black;">
+		<a href="https://bitcoin-street.vercel.app">
+			<img src={logo} alt="ShihebDin" />
+		</a>
 	</div>
+	
 
 	<nav>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -47,12 +55,37 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		background-color: black;
 	}
 
 	.corner {
 		width: 3em;
 		height: 3em;
 	}
+
+	.logo-container {
+  display: inline-block;
+  position: relative;
+  /* width: 100px;
+  height: 100px; */
+}
+
+.logo-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 	.corner a {
 		display: flex;
@@ -71,7 +104,8 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		/* --background: rgba(255, 255, 255, 0.7); */
+		--background: rgba(255, 255, 255, 0.2);
 	}
 
 	svg {
@@ -121,7 +155,7 @@
 		align-items: center;
 		padding: 0 0.5rem;
 		/* color: var(--color-text); */
-		color: black;
+		color: white;
 		font-weight: 800;
 		/* font-size: 0.8rem; */
 		font-size: 0.9rem;
