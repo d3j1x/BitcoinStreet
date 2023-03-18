@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	// import logo from '$lib/images/svelte-logo.svg';
 	import logo from '$lib/images/logo.png';
+	import logopen from '$lib/images/logopen.png';
 	import github from '$lib/images/github.svg';
 
 </script>
@@ -15,7 +16,7 @@
 
 	<div class="corner logo-container" style="background-color: black;">
 		<a href="https://bitcoin-street.vercel.app">
-			<img src={logo} alt="ShihebDin" />
+			<img src={logo} alt="BtcStreet" />
 		</a>
 	</div>
 	
@@ -43,9 +44,14 @@
 		</svg>
 	</nav>
 
-	<div class="corner">
+	<!-- <div class="corner">
 		<a href="https://github.com/sveltejs/kit">
 			<img src={github} alt="GitHub" />
+		</a>
+	</div> -->
+	<div class="corner">
+		<a href="https://github.com/d3j1x/BitcoinStreet">
+			<img src={logopen} alt="OpenSource" />
 		</a>
 	</div>
 </header>
@@ -64,16 +70,17 @@
 	}
 
 	.logo-container {
-  display: inline-block;
+  /* display: inline-block; */
   position: relative;
   /* width: 100px;
   height: 100px; */
+  
 }
 
 .logo-container img {
   position: absolute;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
   animation: spin 2s linear infinite;
 }
 
