@@ -50,7 +50,7 @@
 		</a>
 	</div> -->
 	<div class="corner">
-		<a href="https://github.com/d3j1x/BitcoinStreet">
+		<a href="https://github.com/d3j1x/BitcoinStreet/">
 			<img src={logopen} alt="OpenSource" />
 		</a>
 	</div>
