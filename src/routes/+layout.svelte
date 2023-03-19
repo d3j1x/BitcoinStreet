@@ -4,6 +4,10 @@
 	import Sitename from './Sitename.svelte';
 	import './styles.css';
 
+	const script = document.createElement('script');
+    script.src = '//static.surfe.pro/js/net.js';
+    document.body.appendChild(script);
+
 </script>
 
 <div class="app">
@@ -14,7 +18,9 @@
 	<Header />
 
 
-
+	<ins class="surfe-be" data-sid="370108"></ins>
+  	<script>(adsurfebe = window.adsurfebe || []).push({});</script>
+	
 	<main>
 		<slot />
 	</main>
