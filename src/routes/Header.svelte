@@ -5,6 +5,11 @@
 	import logopen from '$lib/images/logopen.png';
 	import github from '$lib/images/github.svg';
 
+	
+  	function refresh() {
+    	window.location.reload();
+  	}
+
 </script>
 
 <header>
@@ -15,7 +20,7 @@
 	</div> -->
 
 	<div class="corner logo-container" style="background-color: black;">
-		<a href="https://bitcoin-street.vercel.app/">
+		<a href="#" on:click|preventDefault={refresh}>
 			<img src={logo} alt="BtcStreet" />
 		</a>
 	</div>
