@@ -15,7 +15,7 @@
 	</div> -->
 
 	<div class="corner logo-container" style="background-color: black;">
-		<a href="https://bitcoin-street.vercel.app">
+		<a href="https://bitcoin-street.vercel.app/">
 			<img src={logo} alt="BtcStreet" />
 		</a>
 	</div>

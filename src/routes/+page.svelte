@@ -14,6 +14,11 @@
 	<meta name="description" content="BTC LIVE PRICE $ | Crypto News | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing" />
 </svelte:head>
 
+{#if typeof document !== 'undefined'}
+    <script src="//static.surfe.pro/js/net.js"></script>
+    <ins class="surfe-be" data-sid="370108"></ins>
+    <script>(adsurfebe = window.adsurfebe || []).push({});</script>
+{/if}
 
 <BitcoinPrice />
 
