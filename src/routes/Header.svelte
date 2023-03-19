@@ -20,7 +20,7 @@
 	</div> -->
 
 	<div class="corner logo-container" style="background-color: black;">
-		<a href="#" on:click|preventDefault={refresh}>
+		<a href="{$page.url.pathname}" on:click|preventDefault={refresh}>
 			<img src={logo} alt="BtcStreet" />
 		</a>
 	</div>
