@@ -36,7 +36,7 @@
       align-items: center;
       margin-top: 1rem;
       margin-bottom: 1rem;
-      border: 5px solid #555;
+      border: 5px solid  #d3d3d3;
       border-radius: 8px;
       background: black;
     }
