@@ -32,7 +32,7 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/" on:click|preventDefault={refresh}>STREET</a>
+				<a href="https://bitcoin-street.vercel.app/" >STREET</a>
 			</li>
 
 			<li aria-current={$page.url.pathname.startsWith('/freecoins') ? 'page' : undefined}>
