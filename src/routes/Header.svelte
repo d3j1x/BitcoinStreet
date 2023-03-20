@@ -20,7 +20,7 @@
 	</div> -->
 
 	<div class="corner logo-container" style="background-color: black;">
-		<a href="{$page.url.pathname}" on:click|preventDefault={refresh}>
+		<a href="{$page.url.pathname}">
 			<img src={logo} alt="BtcStreet" />
 		</a>
 	</div>
@@ -32,7 +32,7 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">STREET</a>
+				<a href="/" on:click|preventDefault={refresh}>STREET</a>
 			</li>
 
 			<li aria-current={$page.url.pathname.startsWith('/freecoins') ? 'page' : undefined}>
