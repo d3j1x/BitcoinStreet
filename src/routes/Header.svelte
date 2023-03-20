@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
-	
+
 	// import logo from '$lib/images/svelte-logo.svg';
 	import logo from '$lib/images/logo.png';
 	import logopen from '$lib/images/logopen.png';
@@ -38,7 +38,7 @@
 </script>
 
 
-<div class:sticky={isSticky}>
+<div class:sticky={isSticky} style="z-index: 10;">
 	<!-- Your component content here -->
 
 	<header>
