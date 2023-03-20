@@ -27,7 +27,7 @@
 	function refreshPage() {
     	setTimeout(() => {
     	  location.reload();
-    	}, 500);
+    	}, 250);
   	}
 
  	function handleClick() {
@@ -48,7 +48,7 @@
 			</a>
 		</div> -->
 	
-		<div class="corner logo-container" style="background-color: black;">
+		<div class="corner logo-container">
 			<a href="{$page.url.pathname}">
 				<img src={logo} alt="BtcStreet" />
 			</a>
@@ -103,7 +103,7 @@
     top: 0;
     /* background-color: white; */
     /* padding: 10px; */
-    /* border-bottom: 1px solid gray; */
+    /* border-bottom: 5px solid black; */
   }
 
 
@@ -113,6 +113,7 @@
 		display: flex;
 		justify-content: space-between;
 		background-color: black;
+		border-bottom: 5px solid black;
 	}
 
 	.corner {
@@ -225,6 +226,6 @@
 
 	a:hover {
 		/* color: var(--color-theme-1); */
-		color: darkblue;
+		color: blue;
 	}
 </style>

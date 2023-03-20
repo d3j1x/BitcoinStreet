@@ -83,7 +83,7 @@ align-items: center;">
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 25px;
+  font-size: 23px;
   color: yellow;
   text-transform: uppercase;
   animation: flip 4s infinite;
