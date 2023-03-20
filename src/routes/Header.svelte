@@ -1,14 +1,24 @@
 <script>
 	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
+
 	// import logo from '$lib/images/svelte-logo.svg';
 	import logo from '$lib/images/logo.png';
 	import logopen from '$lib/images/logopen.png';
-	import github from '$lib/images/github.svg';
+	// import github from '$lib/images/github.svg';
+	
 
 	
-  	function refresh() {
-    	window.location.reload();
+	function refreshPage() {
+    	setTimeout(() => {
+    	  location.reload();
+    	}, 500);
   	}
+
+ 	function handleClick() {
+    	goto('/');
+    	refreshPage();
+ 	}
 
 </script>
 
@@ -32,7 +42,7 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="https://bitcoin-street.vercel.app/" >STREET</a>
+				<a href="/" on:click|preventDefault={handleClick}>STREET</a>
 			</li>
 
 			<li aria-current={$page.url.pathname.startsWith('/freecoins') ? 'page' : undefined}>
