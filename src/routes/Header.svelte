@@ -1,12 +1,27 @@
 <script>
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-
+	import { onMount } from 'svelte';
+	
 	// import logo from '$lib/images/svelte-logo.svg';
 	import logo from '$lib/images/logo.png';
 	import logopen from '$lib/images/logopen.png';
 	// import github from '$lib/images/github.svg';
 	
+	
+
+  	let isSticky = false;
+
+  	function handleScroll() {
+    isSticky = window.pageYOffset > 0;
+  	}
+
+  	onMount(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  	});
 
 	
 	function refreshPage() {
@@ -22,57 +37,78 @@
 
 </script>
 
-<header>
-	<!-- <div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div> -->
 
-	<div class="corner logo-container" style="background-color: black;">
-		<a href="{$page.url.pathname}">
-			<img src={logo} alt="BtcStreet" />
-		</a>
-	</div>
+<div class:sticky={isSticky}>
+	<!-- Your component content here -->
+
+	<header>
+		<!-- <div class="corner">
+			<a href="https://kit.svelte.dev">
+				<img src={logo} alt="SvelteKit" />
+			</a>
+		</div> -->
 	
+		<div class="corner logo-container" style="background-color: black;">
+			<a href="{$page.url.pathname}">
+				<img src={logo} alt="BtcStreet" />
+			</a>
+		</div>
+		
+	
+		<nav>
+			<svg viewBox="0 0 2 3" aria-hidden="true">
+				<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
+			</svg>
+			<ul>
+				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+					<a href="/" on:click|preventDefault={handleClick}>STREET</a>
+				</li>
+	
+				<li aria-current={$page.url.pathname.startsWith('/freecoins') ? 'page' : undefined}>
+					<a href="/freecoins">FreeCoins</a>
+				</li>
+				
+				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+					<a href="/about">About</a>
+				</li>
+				
+			</ul>
+			<svg viewBox="0 0 2 3" aria-hidden="true">
+				<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
+			</svg>
+		</nav>
+	
+		<!-- <div class="corner">
+			<a href="https://github.com/sveltejs/kit">
+				<img src={github} alt="GitHub" />
+			</a>
+		</div> -->
+		<div class="corner">
+			<a href="https://github.com/d3j1x/BitcoinStreet/">
+				<img src={logopen} alt="OpenSource" />
+			</a>
+		</div>
+	</header>
 
-	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
-		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/" on:click|preventDefault={handleClick}>STREET</a>
-			</li>
+</div>
 
-			<li aria-current={$page.url.pathname.startsWith('/freecoins') ? 'page' : undefined}>
-				<a href="/freecoins">FreeCoins</a>
-			</li>
-			
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
-			</li>
-			
-		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
-	</nav>
 
-	<!-- <div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
-		</a>
-	</div> -->
-	<div class="corner">
-		<a href="https://github.com/d3j1x/BitcoinStreet/">
-			<img src={logopen} alt="OpenSource" />
-		</a>
-	</div>
-</header>
 
 
 <style>
+
+
+  .sticky {
+    position: sticky;
+    top: 0;
+    /* background-color: white; */
+    /* padding: 10px; */
+    /* border-bottom: 1px solid gray; */
+  }
+
+
+
+
 	header {
 		display: flex;
 		justify-content: space-between;
