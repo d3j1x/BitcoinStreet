@@ -104,6 +104,7 @@ pre {
 	justify-content: center;
 	margin: 10px auto;
 	background: black;
+	border: 5px solid white;
 }
 
 input,

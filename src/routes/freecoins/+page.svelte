@@ -11,13 +11,13 @@
 	<meta name="description" content="TOP - BEST FREE EARNING STEP | FREE CRYPTO COINS | FREE FAUCET | FREE MINING WEBSITE" />
 </svelte:head>
 
+<div class="free">
+	<h1>BEST OF <br>#FREE EARNING$ STEPS</h1>
+</div>
 
 
 <div class="text-column">
 	
-	<h1>BEST OF <br>#FREE $EARNING <br> STEPS</h1>
-
-	<hr style="width: 100%;">
 	
 	<h2>WALLET</h2>
 	<pre>To Store Your #CRYPTO.</pre>
@@ -34,27 +34,21 @@
 	
 
 	<p>
-		This is a <a href="https://faucetpay.io/?r=5269707">FaucetPay.io</a> app.
+		This is a <a href="https://faucetpay.io/?r=5269707">FaucetPay.io</a>
 	</p>
 
-	<span class="logofp">
-		<picture>
-			<img src={walletfp} alt="">
-		</picture>
-	</span>
-	<!-- <img src={walletfp} alt=""> -->
+	<p>Micropayment Wallet & Earnings Platform</p>
+
+	<img style="max-width: 300px;" src={walletfp} alt="">
 
 	<p>
-		You can make your own <a href="https://faucetpay.io/?r=5269707">WALLET</a> by Signup <a href="https://faucetpay.io/?r=5269707">/Register</a> to the app.
+		You can make your own <a href="https://faucetpay.io/?r=5269707">Wallet</a> by Signup <a href="https://faucetpay.io/?r=5269707"> Register</a> to the Platform.
 	</p>
 	
 	<img src={cryptofp} alt="">
 
 	<h3><a href="https://faucetpay.io/?r=5269707">JOIN NOW</a></h3>
 	
-	
-
-
 	</div>
 
 	
@@ -73,10 +67,26 @@
 
 
 <style>
+	.free{
+	background-image: linear-gradient(
+	to bottom,
+	#462523 0,
+    #cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%
+	);
+	border: 5px solid black;
+	}
+
 	h1 {
 	font-size: 1.5rem;
 	text-align: center;
-	color: #f2a900;
+	/* color: #f2a900; */
+	color: black;
+	font-weight: bold;
 	}
 
 	h2 {
@@ -94,6 +104,8 @@
 		width: 100%;
 		height: 0;
 		padding: 0 0 calc(100% * 495 / 2048) 0;
+		
+		
 	}
 
 	.logofp img {
@@ -115,6 +127,11 @@
 
 	pre {
 		text-align: center;
+		
+	}
+	p{
+		font-size: 1.5rem;
+		padding: 1rem 2rem;
 	}
 
 	
