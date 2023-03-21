@@ -79,7 +79,7 @@
 	#cb9b51 78%,
 	#462523 100%
 	);
-	border: 5px solid black;
+	border: 5px solid gold;
 	}
 
 	h1 {
