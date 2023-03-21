@@ -68,6 +68,7 @@
 
 <style>
 	.free{
+	margin-top: 10px;
 	background-image: linear-gradient(
 	to bottom,
 	#462523 0,
