@@ -18,9 +18,9 @@
 	<h1>BEST OF <br>#FREE $EARNING <br> STEPS</h1>
 
 	<hr style="width: 100%;">
-
+	
 	<h2>WALLET</h2>
-	<pre>You Need Wallet To Store Your #CRYPTO.</pre>
+	<pre>To Store Your #CRYPTO.</pre>
 
 	<div class="fp">
 
@@ -37,7 +37,12 @@
 		This is a <a href="https://faucetpay.io/?r=5269707">FaucetPay.io</a> app.
 	</p>
 
-	<img src={walletfp} alt="">
+	<span class="logofp">
+		<picture>
+			<img src={walletfp} alt="">
+		</picture>
+	</span>
+	<!-- <img src={walletfp} alt=""> -->
 
 	<p>
 		You can make your own <a href="https://faucetpay.io/?r=5269707">WALLET</a> by Signup <a href="https://faucetpay.io/?r=5269707">/Register</a> to the app.

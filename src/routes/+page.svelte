@@ -13,7 +13,7 @@
 
 <svelte:head>
 	<title>Bitcoin Street</title>
-	<meta name="description" content="BTC LIVE PRICE $ | Crypto News | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing" />
+	<meta name="description" content="BTC LIVE PRICE $ | Crypto News | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing | Convert Btc Satoshi To USD" />
 </svelte:head>
 
 <BitcoinPrice />
