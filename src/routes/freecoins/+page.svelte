@@ -1,7 +1,9 @@
 <script>
-
+	
+	import logofp from '$lib/freecoins/fp/logofp.png';
 	import walletfp from '$lib/freecoins/fp/walletfp.png';
 	import cryptofp from '$lib/freecoins/fp/cryptofp.png';
+
 
 </script>
 <svelte:head>
@@ -9,15 +11,27 @@
 	<meta name="description" content="TOP - BEST FREE EARNING STEP | FREE CRYPTO COINS | FREE FAUCET | FREE MINING WEBSITE" />
 </svelte:head>
 
+
+
 <div class="text-column">
-	<h1>BEST OF #FREE $EARNING STEP</h1>
+	
+	<h1>BEST OF <br>#FREE $EARNING <br> STEPS</h1>
+
+	<hr style="width: 100%;">
 
 	<h2>WALLET</h2>
 	<pre>You Need Wallet To Store Your #CRYPTO.</pre>
 
 	<div class="fp">
 
-	<div class="fplogo"></div>
+		<span class="logofp">
+			<picture>
+				<img src={logofp} alt="">
+			</picture>
+		</span>
+
+	
+	
 
 	<p>
 		This is a <a href="https://faucetpay.io/?r=5269707">FaucetPay.io</a> app.
@@ -54,6 +68,12 @@
 
 
 <style>
+	h1 {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #f2a900;
+	}
+
 	h2 {
 	font-size: 2.5rem;
 	text-align: center;
@@ -63,19 +83,30 @@
 		text-align: center;
 	}
 
-	.fplogo {
+	.logofp {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding: 0 0 calc(100% * 495 / 2048) 0;
+	}
+
+	.logofp img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		display: block;
+	}
+
+	/* .fplogo {
 		background-position:center;
 		background-image: url('../../lib/freecoins/fp/logofp.png');
 		background-size:auto;
 		min-height: 150px;
 		background-repeat: no-repeat;
-		border-radius: 20%; 
-		/* 
-		
-		
-		*/
-		
-	}
+		border-radius: 20%;
+	} */
 
 	pre {
 		text-align: center;
