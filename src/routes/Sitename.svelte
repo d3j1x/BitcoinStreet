@@ -1,33 +1,38 @@
 <script>
 // @ts-nocheck
 
-	import { onDestroy, onMount } from "svelte";
-  let bitcoinPrice = 0;
-  onMount(async () => {
+import { onDestroy, onMount } from "svelte";
+
+let bitcoinPrice = 0;
+
+onMount(async () => {
+  try {
     const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
     const data = await response.json();
     bitcoinPrice = data.bitcoin.usd;
-  });
-
-
-  
-  let intervalId;
-
-  const fetchBitcoinPrice = async () => {
-    try {
-      const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-      const data = await response.json();
-      bitcoinPrice = data['bitcoin']['usd'];
-    } catch (error) {
-      console.error(error);
-    }
+  } catch (error) {
+    console.error(error);
   }
+});
 
-  intervalId = setInterval(fetchBitcoinPrice, 10000);
+let intervalId;
 
-  onDestroy(() => {
-    clearInterval(intervalId);
-  });
+const fetchBitcoinPrice = async () => {
+  try {
+    const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
+    const data = await response.json();
+    bitcoinPrice = data.bitcoin.usd;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+intervalId = setInterval(fetchBitcoinPrice, 10000);
+
+onDestroy(() => {
+  clearInterval(intervalId);
+});
+
 </script>
 
 
