@@ -38,7 +38,7 @@
       margin-bottom: 1rem;
       border: 5px solid  #d3d3d3;
       border-radius: 8px;
-      background: black;
+      background: rgba(0, 0, 0, 0.8);
     }
   
     .bitcoin-price__input {
