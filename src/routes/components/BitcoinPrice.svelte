@@ -24,7 +24,7 @@
 
 
 <div class="bitcoin-price">
-    <h3><span style="color: #f2a900;">BTC:</span> Satoshi To USD</h3>
+    <h3><span style="color: #f2a900;">₿TC:</span> Satoshi To USD</h3>
     <input class="bitcoin-price__input" type="number" bind:value={satoshi} on:input={handleInput} placeholder="Enter Satoshi amount" />
     <p class="bitcoin-price__output">Price: ${usd}</p>
 </div>

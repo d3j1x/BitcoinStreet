@@ -33,11 +33,11 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+		TO <br />  ₿TC STREET  
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		<strong>APP</strong>
 	</h2>
 
 	<Counter />
