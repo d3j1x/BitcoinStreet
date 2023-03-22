@@ -98,15 +98,13 @@
 <style>
 
 
-  .sticky {
-    position: sticky;
-    top: 0;
-    /* background-color: white; */
-    /* padding: 10px; */
-    /* border-bottom: 5px solid black; */
-  }
-
-
+ 	.sticky {
+    	position: sticky;
+    	top: 0;
+    	/* background-color: #006400; */
+    	/* padding: 10px; */
+    	/* border-bottom: 5px solid #006400; */
+  	}
 
 
 	header {
@@ -115,6 +113,8 @@
 		background-color: black;
 		border-bottom: 5px solid black;
 	}
+
+	
 
 	.corner {
 		width: 3em;
