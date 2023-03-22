@@ -4,7 +4,7 @@
 </svelte:head>
 
 <div class="text-column" style="text-align: center;">
-	<h1>About ₿itcoin Street app</h1>
+	<h1>About <span style="color: #f2a900;font-size: 2rem;">₿itcoin Street</span></h1>
 
 	<p>
 		This is a <a href="https://github.com/d3j1x/BitcoinStreet/">opensource</a> app. You can make your own by following the link.
@@ -23,3 +23,11 @@
 		using it with JavaScript disabled!
 	</p>
 </div>
+
+<style>
+	h1 {
+		font-size: 1rem;
+		color: blue;
+		font-weight: bolder;
+	}
+</style>

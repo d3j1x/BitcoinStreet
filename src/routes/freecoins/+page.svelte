@@ -12,7 +12,7 @@
 </svelte:head>
 
 <div class="free">
-	<h1>BEST OF <br>#FREE EARNING$ STEPS</h1>
+	<h1>BEST OF <br>#FREE EARNING$ <span style="font-size: 1rem; color:#3DFF33;"><br />STEPS</span></h1>
 </div>
 
 
@@ -70,7 +70,7 @@
 	.free{
 	margin-top: 10px;
 	background-image: linear-gradient(
-	to bottom,
+	to right,
 	#462523 0,
     #cb9b51 22%, 
 	#f6e27a 45%,
@@ -79,7 +79,7 @@
 	#cb9b51 78%,
 	#462523 100%
 	);
-	border: 5px solid gold;
+	border: 3px solid gold;
 	}
 
 	h1 {
@@ -87,12 +87,14 @@
 	text-align: center;
 	/* color: #f2a900; */
 	color: black;
-	font-weight: bold;
+	font-weight: bolder;
 	}
 
 	h2 {
-	font-size: 2.5rem;
+	font-size: 3.5rem;
+	font-weight: bolder;
 	text-align: center;
+	color:blue;
 	}
 	
 	.fp {
