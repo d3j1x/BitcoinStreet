@@ -1,43 +1,7 @@
-<script>
-// @ts-nocheck
-
-import { onDestroy, onMount } from "svelte";
-
-let bitcoinPrice = 0;
-
-onMount(async () => {
-  try {
-    const response = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');    
-    const data = await response.json();
-    bitcoinPrice = data.bpi.USD.rate;
-  } catch (error) {
-    console.error(error);
-  }
-});
-
-let intervalId;
-
-const fetchBitcoinPrice = async () => {
-  try {
-    const response = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
-    const data = await response.json();
-    bitcoinPrice = data.bpi.USD.rate_float.toFixed(0);
-  } catch (error) {
-    console.error(error);
-  }
-}
-
-intervalId = setInterval(fetchBitcoinPrice, 10000);
-
-onDestroy(() => {
-  clearInterval(intervalId);
-});
-
-</script>
 
 
 <div id="loading">
-    <div class="waviy">
+  <div class="waviy">
 <span style="--i:1">₿</span>
 <span style="--i:2">i</span>
 <span style="--i:3">t</span>
@@ -52,39 +16,23 @@ onDestroy(() => {
 <span style="--i:12">Ǝ</span>
 <span style="--i:13">e</span>
 <span style="--i:14">t</span>
+  </div>
 </div>
-</div>
-
-<span style="color:#3DFF33;font-size: 25px;background-color: black;
-display: flex;
-justify-content: center;
-align-items: center;">
-  {#if bitcoinPrice}
-    ${bitcoinPrice}
-  {:else}
-  LOADING ...
-  {/if}
-</span>
-
-
 
 
 <style>
 
-
-
-
-    #loading {
+#loading {
   background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
-}
+  }
+
 .waviy {
   position: relative;
 }
+
 .waviy span {
   position: relative;
   display: inline-block;

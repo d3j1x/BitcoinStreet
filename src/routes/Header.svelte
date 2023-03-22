@@ -7,6 +7,8 @@
 	import logo from '$lib/images/logo.png';
 	import logopen from '$lib/images/logopen.png';
 	// import github from '$lib/images/github.svg';
+
+	import LivePrice from './components/LivePrice.svelte';
 	
 	
 
@@ -41,6 +43,8 @@
 <div class:sticky={isSticky} style="z-index: 10;">
 	<!-- Your component content here -->
 
+	<LivePrice />
+	
 	<header>
 		<!-- <div class="corner">
 			<a href="https://kit.svelte.dev">
