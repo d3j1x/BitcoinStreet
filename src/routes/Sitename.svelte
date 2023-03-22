@@ -7,9 +7,9 @@ let bitcoinPrice = 0;
 
 onMount(async () => {
   try {
-    const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
+    const response = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');    
     const data = await response.json();
-    bitcoinPrice = data.bitcoin.usd;
+    bitcoinPrice = data.bpi.USD.rate;
   } catch (error) {
     console.error(error);
   }
@@ -19,9 +19,9 @@ let intervalId;
 
 const fetchBitcoinPrice = async () => {
   try {
-    const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
+    const response = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
     const data = await response.json();
-    bitcoinPrice = data.bitcoin.usd;
+    bitcoinPrice = data.bpi.USD.rate_float.toFixed(0);
   } catch (error) {
     console.error(error);
   }
