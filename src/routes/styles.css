@@ -35,10 +35,29 @@ body {
 	/* background-color: #1a1a1a; */
 	/* background-color: #1f2937; */
 	/* background-color: #0a192f; */
-	background-color: hsl(231, 100%, 4%);
+	/* background-color: hsl(231, 100%, 4%); */
+
+	/* background-color: #000000;
+	background-image: linear-gradient(147deg, #000000 0%, #04619f 74%); */
+
+	/* background-color: #2234ae;
+	background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%); */
+
+	/* background-color: #2234ae;
+	background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%); */
+
+	/* background-color: #000000;
+	background-image: linear-gradient(147deg, #000000 0%, #04619f 74%); */
+
+
+
+
 	
 
 	background-size: 100vw 100vh;
+
+	background-color: #4d4855;
+	background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
 
 	
 
