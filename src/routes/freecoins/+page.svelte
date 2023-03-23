@@ -4,6 +4,8 @@
 	import walletfp from '$lib/freecoins/fp/walletfp.png';
 	import cryptofp from '$lib/freecoins/fp/cryptofp.png';
 
+	import logocp from '$lib/freecoins/cp/logocp.png';
+
 
 </script>
 <svelte:head>
@@ -63,6 +65,39 @@
 		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
 		using it with JavaScript disabled!
 	</p> -->
+</div>
+
+
+
+<div class="text-column">
+	
+	
+	<h2>START WIN</h2>
+	<pre>Top Paid #CLICK.</pre>
+
+	<div class="fp">
+
+		<span class="logofp">
+			<picture>
+				<img src={logocp} alt="">
+			</picture>
+		</span>
+
+	<p>
+		This is a <a href="https://www.coinpayu.com/?r=smrtmrkt">Coinpayu.com</a>
+	</p>
+
+	<p>Earn Crypto by Views ads, 4 Higher Faucet Every 1h, Doing Offers. </p>
+
+	<!-- <img style="max-width: 300px;" src={walletfp} alt=""> -->
+
+	<h3><a href="https://www.coinpayu.com/?r=smrtmrkt">JOIN NOW</a></h3>
+	
+	</div>
+
+	
+
+	
 </div>
 
 
