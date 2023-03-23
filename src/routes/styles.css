@@ -149,6 +149,15 @@ button:focus:not(:focus-visible) {
 	h1 {
 		font-size: 2.4rem;
 	}
+
+	.text-column{
+		min-width: 48rem;
+	}
+
+	.free {
+		width: 40rem;
+		align-self: center;
+	}
 }
 
 .visually-hidden {

@@ -5,6 +5,7 @@
 	import cryptofp from '$lib/freecoins/fp/cryptofp.png';
 
 	import logocp from '$lib/freecoins/cp/logocp.png';
+	import logocpb from '$lib/freecoins/cp/logocpb.png';
 
 
 </script>
@@ -87,9 +88,9 @@
 		This is a <a href="https://www.coinpayu.com/?r=smrtmrkt">Coinpayu.com</a>
 	</p>
 
-	<p>Earn Crypto by Views ads, 4 Higher Faucet Every 1h, Doing Offers. </p>
+	<p>Earn Crypto by Views ads, Higher Faucet, Offers. </p>
 
-	<!-- <img style="max-width: 300px;" src={walletfp} alt=""> -->
+	<img style="max-width: 300px;" src={logocpb} alt="">
 
 	<h3><a href="https://www.coinpayu.com/?r=smrtmrkt">JOIN NOW</a></h3>
 	
@@ -103,6 +104,7 @@
 
 <style>
 	.free{
+	
 	margin-top: 10px;
 	background-image: linear-gradient(
 	to right,
