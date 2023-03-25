@@ -7,6 +7,8 @@
 	import logocp from '$lib/freecoins/cp/logocp.png';
 	import logocpb from '$lib/freecoins/cp/logocpb.png';
 
+	import logofc2 from '$lib/freecoins/bns/logofc2.png';
+
 
 </script>
 <svelte:head>
@@ -101,6 +103,101 @@
 	
 </div>
 
+<div class="text-column">
+	
+	
+	<h2>BONUS</h2>
+	<pre>Best #FAUCET.</pre>
+
+	
+	
+	<div class="vf">
+
+
+	<img style="max-width: 300px;" src={logofc2} alt="">
+
+	<div class="bns">
+	<h3>#1</h3>
+	<p>
+		This is a <a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">Viefaucet.com</a> The most friendly Faucet
+		High paying - Instant payment - Multiple currencies
+	</p>
+	<h4>2-3 Satochi Every 4mn </h4>
+	<h3><a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#2</h3>
+		<p>
+			This is a <a href="https://faucetron.com/ref/smrket">Faucetron.com</a> Bitcoin Rewards Platform
+		</p>
+		<h4>2-4 Satochi Every 15mn </h4>
+		<h3><a href="https://faucetron.com/ref/smrket">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#3</h3>
+		<p>
+			This is a <a href="https://btcadspace.com/ref/smrket">Btcadspace.com</a> Bitcoin Rewards Platform
+		</p>
+		<h4>1-6 Satochi Every 15mn </h4>
+		<h3><a href="https://btcadspace.com/ref/smrket">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#4</h3>
+		<p>
+			This is a <a href="https://cryptoflare.net/?r=17305">Cryptoflare.net</a> Bitcoin Rewards Platform
+		</p>
+		<h4>1-6 Satochi Every 15mn </h4>
+		<h3><a href="https://cryptoflare.net/?r=17305">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#5</h3>
+		<p>
+			This is a <a href="https://cryptoflare.net/?r=17305">Cryptowin.io</a> Bitcoin Rewards Platform
+		</p>
+		<h4>1-6 Satochi Every 11mn </h4>
+		<h3><a href="https://cryptowin.io/ref/smrket">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#6</h3>
+		<p>
+			This is a <a href="https://faucetsfly.com/?ref=25916">Faucetsfly.com</a> Bitcoin Rewards Platform
+		</p>
+		<h4>Roll Satochi Every 10mn </h4>
+		<h3><a href="https://faucetsfly.com/?ref=25916">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#7</h3>
+		<p>
+			This is a <a href="https://cointivert.com/ref/smrket">Cointivert.com</a> Bitcoin Rewards Platform
+		</p>
+		<h4>1-6 Satochi Every 15mn </h4>
+		<h3><a href="https://cointivert.com/ref/smrket">JOIN NOW</a></h3>
+	</div>
+	
+	<div class="bns">
+		<h3>#8</h3>
+		<p>
+			This is a <a href="https://coinadster.com/?ref=255015">Coinadster.com</a> Bitcoin Rewards Platform
+		</p>
+		<h4>Roll Satochi Every 10mn </h4>
+		<h3><a href="https://coinadster.com/?ref=255015">JOIN NOW</a></h3>
+	</div>
+	
+
+
+	</div>
+
+	
+
+	
+</div>
+
 
 <style>
 	.free{
@@ -132,6 +229,13 @@
 	font-weight: bolder;
 	text-align: center;
 	color:blue;
+	background-color: azure;
+	}
+
+	h3 {
+		font-size: 2rem;
+		font-weight: bolder;
+		color: #f2a900;
 	}
 	
 	.fp {
@@ -172,6 +276,15 @@
 	p{
 		font-size: 1.5rem;
 		padding: 1rem 2rem;
+	}
+
+	.vf {
+		text-align: center;
+	}
+
+	.bns {
+		border: 3px dotted blue;
+		margin:1rem;
 	}
 
 	

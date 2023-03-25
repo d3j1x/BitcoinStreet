@@ -30,4 +30,8 @@
 		color: blue;
 		font-weight: bolder;
 	}
+
+	p {
+		font-size: 1.5rem;
+	}
 </style>
