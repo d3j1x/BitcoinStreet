@@ -149,16 +149,16 @@
 		<p>
 			This is a <a href="https://cryptoflare.net/?r=17305">Cryptoflare.net</a> Bitcoin Rewards Platform
 		</p>
-		<h4>1-6 Satochi Every 15mn </h4>
+		<h4>1-6 Satochi Every 11mn </h4>
 		<h3><a href="https://cryptoflare.net/?r=17305">JOIN NOW</a></h3>
 	</div>
 
 	<div class="bns">
 		<h3>#5</h3>
 		<p>
-			This is a <a href="https://cryptoflare.net/?r=17305">Cryptowin.io</a> Bitcoin Rewards Platform
+			This is a <a href="https://cryptowin.io/ref/smrket">Cryptowin.io</a> Bitcoin Rewards Platform
 		</p>
-		<h4>1-6 Satochi Every 11mn </h4>
+		<h4>1-6 Satochi Every 15mn </h4>
 		<h3><a href="https://cryptowin.io/ref/smrket">JOIN NOW</a></h3>
 	</div>
 
