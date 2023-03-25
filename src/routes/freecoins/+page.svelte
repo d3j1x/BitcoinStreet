@@ -119,7 +119,8 @@
 	<div class="bns">
 	<h3>#1</h3>
 	<p>
-		This is a <a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">Viefaucet.com</a> The most friendly Faucet
+		This is a <a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">Viefaucet.com</a> 
+		<br><br>The most friendly Faucet
 		High paying - Instant payment - Multiple currencies
 	</p>
 	<h4>2-3 Satochi Every 4mn </h4>
@@ -129,7 +130,8 @@
 	<div class="bns">
 		<h3>#2</h3>
 		<p>
-			This is a <a href="https://faucetron.com/ref/smrket">Faucetron.com</a> Bitcoin Rewards Platform
+			This is a <a href="https://faucetron.com/ref/smrket">Faucetron.com</a> 
+			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>2-4 Satochi Every 15mn </h4>
 		<h3><a href="https://faucetron.com/ref/smrket">JOIN NOW</a></h3>
@@ -138,7 +140,8 @@
 	<div class="bns">
 		<h3>#3</h3>
 		<p>
-			This is a <a href="https://btcadspace.com/ref/smrket">Btcadspace.com</a> Bitcoin Rewards Platform
+			This is a <a href="https://btcadspace.com/ref/smrket">Btcadspace.com</a> 
+			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
 		<h3><a href="https://btcadspace.com/ref/smrket">JOIN NOW</a></h3>
@@ -147,7 +150,8 @@
 	<div class="bns">
 		<h3>#4</h3>
 		<p>
-			This is a <a href="https://cryptoflare.net/?r=17305">Cryptoflare.net</a> Bitcoin Rewards Platform
+			This is a <a href="https://cryptoflare.net/?r=17305">Cryptoflare.net</a> 
+			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 11mn </h4>
 		<h3><a href="https://cryptoflare.net/?r=17305">JOIN NOW</a></h3>
@@ -156,7 +160,8 @@
 	<div class="bns">
 		<h3>#5</h3>
 		<p>
-			This is a <a href="https://cryptowin.io/ref/smrket">Cryptowin.io</a> Bitcoin Rewards Platform
+			This is a <a href="https://cryptowin.io/ref/smrket">Cryptowin.io</a> 
+			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
 		<h3><a href="https://cryptowin.io/ref/smrket">JOIN NOW</a></h3>
@@ -165,7 +170,8 @@
 	<div class="bns">
 		<h3>#6</h3>
 		<p>
-			This is a <a href="https://faucetsfly.com/?ref=25916">Faucetsfly.com</a> Bitcoin Rewards Platform
+			This is a <a href="https://faucetsfly.com/?ref=25916">Faucetsfly.com</a> 
+			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>Roll Satochi Every 10mn </h4>
 		<h3><a href="https://faucetsfly.com/?ref=25916">JOIN NOW</a></h3>
@@ -174,7 +180,8 @@
 	<div class="bns">
 		<h3>#7</h3>
 		<p>
-			This is a <a href="https://cointivert.com/ref/smrket">Cointivert.com</a> Bitcoin Rewards Platform
+			This is a <a href="https://cointivert.com/ref/smrket">Cointivert.com</a> 
+			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
 		<h3><a href="https://cointivert.com/ref/smrket">JOIN NOW</a></h3>
@@ -183,7 +190,8 @@
 	<div class="bns">
 		<h3>#8</h3>
 		<p>
-			This is a <a href="https://coinadster.com/?ref=255015">Coinadster.com</a> Bitcoin Rewards Platform
+			This is a <a href="https://coinadster.com/?ref=255015">Coinadster.com</a> 
+			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>Roll Satochi Every 10mn </h4>
 		<h3><a href="https://coinadster.com/?ref=255015">JOIN NOW</a></h3>
@@ -275,7 +283,7 @@
 	}
 	p{
 		font-size: 1.5rem;
-		padding: 1rem 2rem;
+		padding: 1rem;
 	}
 
 	.vf {
