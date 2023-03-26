@@ -33,5 +33,6 @@
 
 	p {
 		font-size: 1.5rem;
+		padding: 0.5rem;
 	}
 </style>
