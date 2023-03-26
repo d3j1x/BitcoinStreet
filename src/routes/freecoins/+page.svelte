@@ -9,6 +9,9 @@
 
 	import logofc2 from '$lib/freecoins/bns/logofc2.png';
 
+	import pssv from '$lib/freecoins/psv/pssv.jpg';
+	import pwns from '$lib/freecoins/psv/pwns.png'
+
 	import Adv from '../Adv.svelte';
 
 
@@ -105,7 +108,43 @@
 	
 </div>
 
-<Adv />
+<div style="margin-top: 0.5rem;">
+	<Adv />
+</div>
+
+
+<div class="text-column">
+	
+	
+	<h2>PASSIVE INCOME</h2>
+	<pre>Best Passive #INCOME.</pre>
+
+	<div class="fp">
+
+		<span class="logofp">
+			<picture>
+				<img src={pssv} alt="">
+			</picture>
+		</span>
+
+	<p>
+		This is <a href="https://pawns.app/?r=1255808">Pawns.app</a>
+	</p>
+
+	<p>Passive Income Online 
+	<br><br> Make passive money online by completing surveys and sharing your internet.
+	</p>
+
+	<img style="max-width: 300px;" src={pwns} alt="">
+
+	<h3><a href="https://pawns.app/?r=1255808">JOIN NOW</a></h3>
+	
+	</div>
+
+	
+
+	
+</div>
 
 <div class="text-column">
 	
