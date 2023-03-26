@@ -239,6 +239,36 @@
 		<h4>Roll Satochi Every 10mn </h4>
 		<h3><a href="https://coinadster.com/?ref=255015">JOIN NOW</a></h3>
 	</div>
+
+	<div class="bns">
+		<h3>#9</h3>
+		<p>
+			This is <a href="https://faucetcrypto.com/ref/2056413">Faucetcrypto.com</a> 
+			<br><br>Bitcoin Rewards Platform
+		</p>
+		<h4> 18 Coins Every 30mn </h4>
+		<h3><a href="https://faucetcrypto.com/ref/2056413">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#10</h3>
+		<p>
+			This is <a href="https://simplebits.io/ref/L4tmvQbH1IOWy5ro">Simplebits.io</a> 
+			<br><br>Bitcoin Rewards Platform
+		</p>
+		<h4> 5-12 Token Every 30mn </h4>
+		<h3><a href="https://simplebits.io/ref/L4tmvQbH1IOWy5ro">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#11</h3>
+		<p>
+			This is <a href="https://firefaucet.win/ref/smrket">Firefaucet.win</a> 
+			<br><br>Bitcoin Rewards Platform
+		</p>
+		<h4> Random ACP Every 30mn </h4>
+		<h3><a href="https://firefaucet.win/ref/smrket">JOIN NOW</a></h3>
+	</div>
 	
 
 
