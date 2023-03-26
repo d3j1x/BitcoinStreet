@@ -18,7 +18,10 @@
 
 <BitcoinPrice />
 
-<Ad />
+<div>
+	<Ad />
+</div>
+
 
 
 
