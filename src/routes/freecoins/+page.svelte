@@ -9,6 +9,8 @@
 
 	import logofc2 from '$lib/freecoins/bns/logofc2.png';
 
+	import Adv from '../Adv.svelte';
+
 
 </script>
 <svelte:head>
@@ -102,6 +104,8 @@
 
 	
 </div>
+
+<Adv />
 
 <div class="text-column">
 	
