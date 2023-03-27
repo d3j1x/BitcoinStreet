@@ -13,6 +13,8 @@
 	import pwns from '$lib/freecoins/psv/pwns.png'
 
 	import Adv from '../Adv.svelte';
+	import Adm from '../Adm.svelte';
+	import Adb from '../Adb.svelte';
 
 
 </script>
@@ -75,7 +77,9 @@
 	</p> -->
 </div>
 
-
+<div>
+	<Adv />
+</div>
 
 <div class="text-column">
 	
@@ -108,8 +112,8 @@
 	
 </div>
 
-<div style="margin-top: 0.5rem;">
-	<Adv />
+<div>
+	<Adm />
 </div>
 
 
@@ -145,6 +149,11 @@
 
 	
 </div>
+
+<div>
+	<Adb />
+</div>
+
 
 <div class="text-column">
 	
