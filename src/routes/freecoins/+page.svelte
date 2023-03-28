@@ -7,6 +7,9 @@
 	import logocp from '$lib/freecoins/cp/logocp.png';
 	import logocpb from '$lib/freecoins/cp/logocpb.png';
 
+	import logobtc from '$lib/freecoins/adbtc/logobtc.png';
+	import adbtc from '$lib/freecoins/adbtc/adbtc.png';
+
 	import logofc2 from '$lib/freecoins/bns/logofc2.png';
 
 	import pssv from '$lib/freecoins/psv/pssv.jpg';
@@ -104,6 +107,24 @@
 	<img style="max-width: 300px;" src={logocpb} alt="">
 
 	<h3><a href="https://www.coinpayu.com/?r=smrtmrkt">JOIN NOW</a></h3>
+	
+	</div>
+
+	<hr style="width: 90%;margin-bottom:2rem;">
+
+	<div class="fp">
+
+	<img style="max-width: 300px;" src={adbtc} alt="">
+
+	<p>
+		This is a <a href="https://r.adbtc.top/3118297">Adbtc.top</a>
+	</p>
+
+	<p>Earn money for watching websites. </p>
+
+	<img style="max-width: 300px;" src={logobtc} alt="">
+
+	<h3><a href="https://r.adbtc.top/3118297">JOIN NOW</a></h3>
 	
 	</div>
 
