@@ -18,6 +18,7 @@
 	import Adv from '../Adv.svelte';
 	import Adm from '../Adm.svelte';
 	import Adb from '../Adb.svelte';
+	import Adc from '../Adc.svelte';
 
 
 </script>
@@ -192,7 +193,7 @@
 	<div class="bns">
 	<h3>#1</h3>
 	<p>
-		This is a <a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">Viefaucet.com</a> 
+		This is <a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">Viefaucet.com</a> 
 		<br><br>The most friendly Faucet
 		High paying - Instant payment - Multiple currencies
 	</p>
@@ -203,7 +204,7 @@
 	<div class="bns">
 		<h3>#2</h3>
 		<p>
-			This is a <a href="https://faucetron.com/ref/smrket">Faucetron.com</a> 
+			This is <a href="https://faucetron.com/ref/smrket">Faucetron.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>2-4 Satochi Every 15mn </h4>
@@ -213,7 +214,7 @@
 	<div class="bns">
 		<h3>#3</h3>
 		<p>
-			This is a <a href="https://btcadspace.com/ref/smrket">Btcadspace.com</a> 
+			This is <a href="https://btcadspace.com/ref/smrket">Btcadspace.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
@@ -223,7 +224,7 @@
 	<div class="bns">
 		<h3>#4</h3>
 		<p>
-			This is a <a href="https://cryptoflare.net/?r=17305">Cryptoflare.net</a> 
+			This is <a href="https://cryptoflare.net/?r=17305">Cryptoflare.net</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 11mn </h4>
@@ -233,7 +234,7 @@
 	<div class="bns">
 		<h3>#5</h3>
 		<p>
-			This is a <a href="https://cryptowin.io/ref/smrket">Cryptowin.io</a> 
+			This is <a href="https://cryptowin.io/ref/smrket">Cryptowin.io</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
@@ -243,7 +244,7 @@
 	<div class="bns">
 		<h3>#6</h3>
 		<p>
-			This is a <a href="https://faucetsfly.com/?ref=25916">Faucetsfly.com</a> 
+			This is <a href="https://faucetsfly.com/?ref=25916">Faucetsfly.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>Roll Satochi Every 10mn </h4>
@@ -253,7 +254,7 @@
 	<div class="bns">
 		<h3>#7</h3>
 		<p>
-			This is a <a href="https://cointivert.com/ref/smrket">Cointivert.com</a> 
+			This is <a href="https://cointivert.com/ref/smrket">Cointivert.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
@@ -263,7 +264,7 @@
 	<div class="bns">
 		<h3>#8</h3>
 		<p>
-			This is a <a href="https://coinadster.com/?ref=255015">Coinadster.com</a> 
+			This is <a href="https://coinadster.com/?ref=255015">Coinadster.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>Roll Satochi Every 10mn </h4>
@@ -299,7 +300,46 @@
 		<h4> Random ACP Every 30mn </h4>
 		<h3><a href="https://firefaucet.win/ref/smrket">JOIN NOW</a></h3>
 	</div>
+
+	<div class="bns">
+		<h3>#12</h3>
+		<p>
+			This is <a href="https://litepick.io/?ref=smrket">Litepick.io</a> 
+			<br><br>Litecoin Rewards Platform
+		</p>
+		<h4> 250 Litoshi Every 1hr </h4>
+		<h3><a href="https://litepick.io/?ref=smrket">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#13</h3>
+		<p>
+			This is <a href="https://coinpot.in/?r=366314">Coinpot.in</a> 
+			<br><br>Bitcoin Rewards Platform
+		</p>
+		<h4> 50 Coins Every 1hr </h4>
+		<h3><a href="https://coinpot.in/?r=366314">JOIN NOW</a></h3>
+	</div>
+
+	<div class="bns">
+		<h3>#14</h3>
+		<p>
+			This is <a href="https://faucet4u.com/?r=47874">Faucet4u.com</a> 
+			<br><br>Bitcoin Rewards Platform
+		</p>
+		<h4> 0.001 USD Every 1hr </h4>
+		<h3><a href="https://faucet4u.com/?r=47874">JOIN NOW</a></h3>
+	</div>
 	
+	<div class="bns">
+		<h3>#15</h3>
+		<p>
+			This is <a href="https://bits.re/?r=162733">Bits.re</a> 
+			<br><br>Bitcoin Rewards Platform
+		</p>
+		<h4> 40 Coins Every 1hr </h4>
+		<h3><a href="https://bits.re/?r=162733">JOIN NOW</a></h3>
+	</div>
 
 
 	</div>
@@ -307,6 +347,10 @@
 	
 
 	
+</div>
+
+<div>
+	<Adc />
 </div>
 
 
