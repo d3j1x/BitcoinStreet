@@ -40,6 +40,8 @@
 	<span>STEPS</span>
 </div>
 
+<h1>💲</h1>
+
 <div>
 	<Ad2 />
 </div>
