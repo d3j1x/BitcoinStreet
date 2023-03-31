@@ -20,6 +20,8 @@
 	import Adb from '../Adb.svelte';
 	import Adc from '../Adc.svelte';
 
+	import Ad2 from '../Ad2.svelte';
+
 
 </script>
 <svelte:head>
@@ -36,6 +38,10 @@
 
 <div class="free">
 	<span>STEPS</span>
+</div>
+
+<div>
+	<Ad2 />
 </div>
 
 
@@ -388,10 +394,12 @@
 		text-align: center;
 		color: #f2a900;
 		font-weight: bolder;
-		font-size: 1.8em;
-		font-family:'Courier New', Courier, monospace;
+		font-size: 1.6em;
+		font-family:'Times New Roman', Times, serif;
 		letter-spacing: 0.2em;
-		
+		margin: 0;
+		padding: 0;
+		font-style:initial ;
 		
 	}
 
