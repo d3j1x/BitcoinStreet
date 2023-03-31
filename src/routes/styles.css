@@ -154,10 +154,10 @@ button:focus:not(:focus-visible) {
 		min-width: 48rem;
 	}
 
-	.free {
+	/* .free {
 		width: 40rem;
 		align-self: center;
-	}
+	} */
 }
 
 .visually-hidden {

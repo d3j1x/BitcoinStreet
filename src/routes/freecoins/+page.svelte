@@ -28,7 +28,14 @@
 </svelte:head>
 
 <div class="free">
-	<h1>BEST OF <br>#FREE EARNING$ <span style="font-size: 1rem; color:#3DFF33;"><br />STEPS</span></h1>
+	<span>BEST OF</span>
+</div>
+
+<h1> #FREE EARNING$ </h1>
+
+
+<div class="free">
+	<span>STEPS</span>
 </div>
 
 
@@ -355,7 +362,7 @@
 
 
 <style>
-	.free{
+	/* .free{
 	
 	margin-top: 10px;
 	background-image: linear-gradient(
@@ -369,13 +376,36 @@
 	#462523 100%
 	);
 	border: 3px solid gold;
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	}
+*/
+
+	.free {
+		
+		text-align: center;
+		color: #f2a900;
+		font-weight: bolder;
+		font-size: 1.8em;
+		font-family:'Courier New', Courier, monospace;
+		letter-spacing: 0.2em;
+		
+		
 	}
 
+	
+
+
+
 	h1 {
-	font-size: 1.5rem;
+	
+	font-size: 2.3rem;
 	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
 	/* color: #f2a900; */
-	color: black;
+	color:greenyellow;
 	font-weight: bolder;
 	}
 
