@@ -40,7 +40,7 @@
 	<span>STEPS</span>
 </div>
 
-<h1>💲</h1>
+<h3 style="text-align: center;">💲</h3>
 
 <div>
 	<Ad2 />
@@ -396,11 +396,11 @@
 	.free {
 		
 		text-align: center;
-		color: #f2a900;
+		color: gold;
 		font-weight: bolder;
-		font-size: 1.6em;
-		font-family:'Times New Roman', Times, serif;
-		letter-spacing: 0.2em;
+		font-size: 2em;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		letter-spacing: 0.5em;
 		margin: 0;
 		padding: 0;
 		font-style:initial ;
