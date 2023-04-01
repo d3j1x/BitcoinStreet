@@ -46,6 +46,9 @@
 	<Ad2 />
 </div>
 
+<h1>₿</h1>
+
+
 
 <div class="text-column">
 	
