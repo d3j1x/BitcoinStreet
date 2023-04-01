@@ -31,7 +31,7 @@
 	
 </div>
 
-	<div class="pub">
+	<div class="text-column">
 		<Adl />
 	</div>
 

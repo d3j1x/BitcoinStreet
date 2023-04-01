@@ -135,11 +135,7 @@ pre {
 	border: 5px solid #d3d3d3;
 }
 
-.pub {
-	max-width: 48rem;
-	border: 3px dotted red;
-	padding: 10px;
-}
+
 
 input,
 button {
