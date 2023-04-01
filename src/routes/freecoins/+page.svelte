@@ -229,11 +229,13 @@
 	</p>
 	<h4>2-3 Satochi Every 4mn </h4>
 	<h3><a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">JOIN NOW</a></h3>
-	</div>
 
 	<div class="pub">
 		<Ad2 />
 	</div>
+	</div>
+
+	
 
 	<div class="bns">
 		<h3>#2</h3>
@@ -243,11 +245,13 @@
 		</p>
 		<h4>2-4 Satochi Every 15mn </h4>
 		<h3><a href="https://faucetron.com/ref/smrket">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#3</h3>
@@ -257,11 +261,13 @@
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
 		<h3><a href="https://btcadspace.com/ref/smrket">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#4</h3>
@@ -271,11 +277,13 @@
 		</p>
 		<h4>1-6 Satochi Every 11mn </h4>
 		<h3><a href="https://cryptoflare.net/?r=17305">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 
 	<div class="bns">
@@ -286,11 +294,13 @@
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
 		<h3><a href="https://cryptowin.io/ref/smrket">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#6</h3>
@@ -300,11 +310,13 @@
 		</p>
 		<h4>Roll Satochi Every 10mn </h4>
 		<h3><a href="https://faucetsfly.com/?ref=25916">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#7</h3>
@@ -314,11 +326,13 @@
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
 		<h3><a href="https://cointivert.com/ref/smrket">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 	
 	<div class="bns">
 		<h3>#8</h3>
@@ -328,11 +342,13 @@
 		</p>
 		<h4>Roll Satochi Every 10mn </h4>
 		<h3><a href="https://coinadster.com/?ref=255015">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#9</h3>
@@ -342,11 +358,13 @@
 		</p>
 		<h4> 18 Coins Every 30mn </h4>
 		<h3><a href="https://faucetcrypto.com/ref/2056413">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#10</h3>
@@ -356,11 +374,13 @@
 		</p>
 		<h4> 5-12 Token Every 30mn </h4>
 		<h3><a href="https://simplebits.io/ref/L4tmvQbH1IOWy5ro">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>	
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#11</h3>
@@ -370,11 +390,13 @@
 		</p>
 		<h4> Random ACP Every 30mn </h4>
 		<h3><a href="https://firefaucet.win/ref/smrket">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#12</h3>
@@ -384,11 +406,14 @@
 		</p>
 		<h4> 250 Litoshi Every 1hr </h4>
 		<h3><a href="https://litepick.io/?ref=smrket">JOIN NOW</a></h3>
+	
+		<div class="pub">
+		<Ad2 />
+		</div>
+
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+
 
 	<div class="bns">
 		<h3>#13</h3>
@@ -398,11 +423,13 @@
 		</p>
 		<h4> 50 Coins Every 1hr </h4>
 		<h3><a href="https://coinpot.in/?r=366314">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 
 	<div class="bns">
 		<h3>#14</h3>
@@ -412,11 +439,13 @@
 		</p>
 		<h4> 0.001 USD Every 1hr </h4>
 		<h3><a href="https://faucet4u.com/?r=47874">JOIN NOW</a></h3>
+
+		<div class="pub">
+		<Ad2 />
+		</div>
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
+	
 	
 	<div class="bns">
 		<h3>#15</h3>
