@@ -428,19 +428,18 @@
 		<h3><a href="https://bits.re/?r=162733">JOIN NOW</a></h3>
 	</div>
 
-
 	<div class="pub">
-	<Adc />
-	</div>
-	
+		<Ad2 />
 	</div>
 
-	
+	</div>
 
-	
 </div>
 
 
+<div class="pub">
+	<Adc />
+</div>
 
 
 <style>
