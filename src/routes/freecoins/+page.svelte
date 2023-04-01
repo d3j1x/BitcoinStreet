@@ -29,6 +29,8 @@
 	<meta name="description" content="TOP - BEST FREE EARNING STEP | FREE CRYPTO COINS | FREE FAUCET | FREE MINING WEBSITE" />
 </svelte:head>
 
+<div class="text-column">
+	
 <div class="free">
 	<span>BEST OF</span>
 </div>
@@ -42,9 +44,12 @@
 
 <h3 style="text-align: center;">💲</h3>
 
-<div>
+<div style="margin-bottom: 5px;">
 	<Ad2 />
 </div>
+</div>
+
+
 
 
 
