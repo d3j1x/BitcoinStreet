@@ -135,6 +135,12 @@ pre {
 	border: 5px solid #d3d3d3;
 }
 
+.pub {
+	max-width: 48rem;
+	border: 3px dotted red;
+	padding: 10px;
+}
+
 input,
 button {
 	font-size: inherit;
@@ -151,6 +157,10 @@ button:focus:not(:focus-visible) {
 	}
 
 	.text-column{
+		min-width: 48rem;
+	}
+
+	.pub {
 		min-width: 48rem;
 	}
 

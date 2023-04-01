@@ -27,13 +27,13 @@
 		using it with JavaScript disabled!
 	</p>
 
-	<div>
-		<Adl />
-	</div>
+	
 	
 </div>
 
-
+	<div class="pub">
+		<Adl />
+	</div>
 
 <style>
 	h1 {
