@@ -27,7 +27,7 @@
 		using it with JavaScript disabled!
 	</p>
 
-	<div style="margin-bottom: 20px;">
+	<div class="pub">
 		<Adl />
 	</div>
 	

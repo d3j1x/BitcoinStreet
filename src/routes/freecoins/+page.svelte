@@ -30,7 +30,7 @@
 </svelte:head>
 
 <div class="text-column">
-	
+
 <div class="free">
 	<span>BEST OF</span>
 </div>
@@ -44,7 +44,7 @@
 
 <h3 style="text-align: center;">💲</h3>
 
-<div style="margin-bottom: 5px;">
+<div class="pub">
 	<Ad2 />
 </div>
 </div>
@@ -103,7 +103,7 @@
 	</p> -->
 </div>
 
-<div>
+<div class="pub">
 	<Adv />
 </div>
 
@@ -156,7 +156,7 @@
 	
 </div>
 
-<div>
+<div class="pub">
 	<Adm />
 </div>
 
@@ -194,7 +194,7 @@
 	
 </div>
 
-<div>
+<div class="pub">
 	<Adb />
 </div>
 
@@ -371,12 +371,14 @@
 	
 </div>
 
-<div>
+<div class="pub">
 	<Adc />
 </div>
 
 
 <style>
+
+
 	/* .free{
 	
 	margin-top: 10px;
