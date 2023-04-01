@@ -31,6 +31,8 @@
 
 <div class="text-column">
 
+<br />
+
 <div class="free">
 	<span>BEST OF</span>
 </div>
