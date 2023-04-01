@@ -88,6 +88,10 @@
 	<img src={cryptofp} alt="">
 
 	<h3><a href="https://faucetpay.io/?r=5269707">JOIN NOW</a></h3>
+
+	<div class="pub">
+		<Adv />
+	</div>
 	
 	</div>
 
@@ -105,9 +109,7 @@
 	</p> -->
 </div>
 
-<div class="pub">
-	<Adv />
-</div>
+
 
 <div class="text-column">
 	
@@ -151,6 +153,10 @@
 
 	<h3><a href="https://r.adbtc.top/3118297">JOIN NOW</a></h3>
 	
+	<div class="pub">
+	<Adm />
+	</div>
+
 	</div>
 
 	
@@ -158,9 +164,7 @@
 	
 </div>
 
-<div class="pub">
-	<Adm />
-</div>
+
 
 
 <div class="text-column">
@@ -189,6 +193,10 @@
 
 	<h3><a href="https://pawns.app/?r=1255808">JOIN NOW</a></h3>
 	
+	<div class="pub">
+	<Adb />
+	</div>
+
 	</div>
 
 	
@@ -196,9 +204,7 @@
 	
 </div>
 
-<div class="pub">
-	<Adb />
-</div>
+
 
 
 <div class="text-column">
@@ -365,7 +371,10 @@
 		<h3><a href="https://bits.re/?r=162733">JOIN NOW</a></h3>
 	</div>
 
-
+	<div class="pub">
+	<Adc />
+	</div>
+	
 	</div>
 
 	
@@ -373,9 +382,7 @@
 	
 </div>
 
-<div class="pub">
-	<Adc />
-</div>
+
 
 
 <style>
