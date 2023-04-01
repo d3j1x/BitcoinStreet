@@ -426,12 +426,14 @@
 		</p>
 		<h4> 40 Coins Every 1hr </h4>
 		<h3><a href="https://bits.re/?r=162733">JOIN NOW</a></h3>
+
+		<div class="pub">
+			<Ad2 />
+		</div>
+
 	</div>
 
-	<div class="pub">
-		<Ad2 />
-	</div>
-
+	
 	</div>
 
 </div>
