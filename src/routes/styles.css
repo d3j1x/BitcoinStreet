@@ -135,17 +135,7 @@ pre {
 	border: 5px solid #d3d3d3;
 }
 
-.pub {
-	display: flex;
-	max-width: 48rem;
-	flex: 0.6;
-	flex-direction: column;
-	justify-content: center;
-	margin: 10px auto;
-	background: rgba(0, 0, 0, 0.6);
-	border-color: #0077ff;
-    box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3);
-}
+
 
 
 
@@ -168,9 +158,7 @@ button:focus:not(:focus-visible) {
 		min-width: 48rem;
 	}
 
-	.pub {
-		min-width: 48rem;
-	}
+	
 
 	/* .free {
 		width: 40rem;
