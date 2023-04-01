@@ -170,8 +170,10 @@
 <div class="text-column">
 	
 	
-	<h2>PASSIVE INCOME</h2>
+	<h2>PASSIVE 💲</h2>
 	<pre>Best Passive #INCOME.</pre>
+	<br/>
+	<br/>
 
 	<div class="fp">
 
