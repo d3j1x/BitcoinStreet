@@ -8,6 +8,8 @@
 	import BitcoinPrice from './components/BitcoinPrice.svelte';
 
 	import Ad from './Ad.svelte';
+
+	import Carousel from './components/Carousel.svelte';
 	
 </script>
 
@@ -21,6 +23,8 @@
 <div class="pub">
 	<Ad />
 </div>
+
+<Carousel />
 
 
 
@@ -45,6 +49,10 @@
 
 	<Counter />
 </section>
+
+
+
+
 
 <style>
 	section {
