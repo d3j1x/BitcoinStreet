@@ -16,5 +16,7 @@
       box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3);
       background: rgba(0, 0, 0, 0.8);
       color: red;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
     }
 </style>
