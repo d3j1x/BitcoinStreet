@@ -74,7 +74,7 @@
 	
 
 	<p>
-		This is a <a href="https://faucetpay.io/?r=5269707">FaucetPay.io</a>
+		This is <a href="https://faucetpay.io/?r=5269707" target="_blank" rel="noreferrer">FaucetPay.io</a>
 	</p>
 
 	<p>Micropayment Wallet & Earnings Platform</p>
@@ -82,12 +82,12 @@
 	<img style="max-width: 300px;" src={walletfp} alt="">
 
 	<p>
-		You can make your own <a href="https://faucetpay.io/?r=5269707">Wallet</a> by Signup <a href="https://faucetpay.io/?r=5269707"> Register</a> to the Platform.
+		You can make your own <a href="https://faucetpay.io/?r=5269707" target="_blank" rel="noreferrer">Wallet</a> by Signup <a href="https://faucetpay.io/?r=5269707" target="_blank" rel="noreferrer"> Register</a> to the Platform.
 	</p>
 	
 	<img src={cryptofp} alt="">
 
-	<h3><a href="https://faucetpay.io/?r=5269707">JOIN NOW</a></h3>
+	<h3><a href="https://faucetpay.io/?r=5269707" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 	<div class="pub">
 		<Adv />
@@ -126,14 +126,14 @@
 		</span>
 
 	<p>
-		This is a <a href="https://www.coinpayu.com/?r=smrtmrkt">Coinpayu.com</a>
+		This is <a href="https://www.coinpayu.com/?r=smrtmrkt" target="_blank" rel="noreferrer">Coinpayu.com</a>
 	</p>
 
 	<p>Earn Crypto by Views ads, Higher Faucet, Offers. </p>
 
 	<img style="max-width: 300px;" src={logocpb} alt="">
 
-	<h3><a href="https://www.coinpayu.com/?r=smrtmrkt">JOIN NOW</a></h3>
+	<h3><a href="https://www.coinpayu.com/?r=smrtmrkt" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 	
 	</div>
 
@@ -144,14 +144,14 @@
 	<img style="max-width: 300px;" src={adbtc} alt="">
 
 	<p>
-		This is a <a href="https://r.adbtc.top/3118297">Adbtc.top</a>
+		This is <a href="https://r.adbtc.top/3118297" target="_blank" rel="noreferrer">Adbtc.top</a>
 	</p>
 
 	<p>Earn money for watching websites. </p>
 
 	<img style="max-width: 300px;" src={logobtc} alt="">
 
-	<h3><a href="https://r.adbtc.top/3118297">JOIN NOW</a></h3>
+	<h3><a href="https://r.adbtc.top/3118297" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 	
 	<div class="pub">
 	<Adm />
@@ -184,7 +184,7 @@
 		</span>
 
 	<p>
-		This is <a href="https://pawns.app/?r=1255808">Pawns.app</a>
+		This is <a href="https://pawns.app/?r=1255808" target="_blank" rel="noreferrer">Pawns.app</a>
 	</p>
 
 	<p>Passive Income Online 
@@ -193,7 +193,7 @@
 
 	<img style="max-width: 300px;" src={pwns} alt="">
 
-	<h3><a href="https://pawns.app/?r=1255808">JOIN NOW</a></h3>
+	<h3><a href="https://pawns.app/?r=1255808" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 	
 	<div class="pub">
 	<Adb />
@@ -225,12 +225,12 @@
 	<div class="bns">
 	<h3>#1</h3>
 	<p>
-		This is <a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">Viefaucet.com</a> 
+		This is <a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96" target="_blank" rel="noreferrer">Viefaucet.com</a> 
 		<br><br>The most friendly Faucet
 		High paying - Instant payment - Multiple currencies
 	</p>
 	<h4>2-3 Satochi Every 4mn </h4>
-	<h3><a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96">JOIN NOW</a></h3>
+	<h3><a href="https://viefaucet.com?r=63f7b16c15519acd8af76e96" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 	<div class="pub">
 		<Ad2 />
@@ -242,11 +242,11 @@
 	<div class="bns">
 		<h3>#2</h3>
 		<p>
-			This is <a href="https://faucetron.com/ref/smrket">Faucetron.com</a> 
+			This is <a href="https://faucetron.com/ref/smrket" target="_blank" rel="noreferrer">Faucetron.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>2-4 Satochi Every 15mn </h4>
-		<h3><a href="https://faucetron.com/ref/smrket">JOIN NOW</a></h3>
+		<h3><a href="https://faucetron.com/ref/smrket" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -258,11 +258,11 @@
 	<div class="bns">
 		<h3>#3</h3>
 		<p>
-			This is <a href="https://btcadspace.com/ref/smrket">Btcadspace.com</a> 
+			This is <a href="https://btcadspace.com/ref/smrket" target="_blank" rel="noreferrer">Btcadspace.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
-		<h3><a href="https://btcadspace.com/ref/smrket">JOIN NOW</a></h3>
+		<h3><a href="https://btcadspace.com/ref/smrket" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -274,11 +274,11 @@
 	<div class="bns">
 		<h3>#4</h3>
 		<p>
-			This is <a href="https://cryptoflare.net/?r=17305">Cryptoflare.net</a> 
+			This is <a href="https://cryptoflare.net/?r=17305" target="_blank" rel="noreferrer">Cryptoflare.net</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 11mn </h4>
-		<h3><a href="https://cryptoflare.net/?r=17305">JOIN NOW</a></h3>
+		<h3><a href="https://cryptoflare.net/?r=17305" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -291,11 +291,11 @@
 	<div class="bns">
 		<h3>#5</h3>
 		<p>
-			This is <a href="https://cryptowin.io/ref/smrket">Cryptowin.io</a> 
+			This is <a href="https://cryptowin.io/ref/smrket" target="_blank" rel="noreferrer">Cryptowin.io</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
-		<h3><a href="https://cryptowin.io/ref/smrket">JOIN NOW</a></h3>
+		<h3><a href="https://cryptowin.io/ref/smrket" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -307,11 +307,11 @@
 	<div class="bns">
 		<h3>#6</h3>
 		<p>
-			This is <a href="https://faucetsfly.com/?ref=25916">Faucetsfly.com</a> 
+			This is <a href="https://faucetsfly.com/?ref=25916" target="_blank" rel="noreferrer">Faucetsfly.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>Roll Satochi Every 10mn </h4>
-		<h3><a href="https://faucetsfly.com/?ref=25916">JOIN NOW</a></h3>
+		<h3><a href="https://faucetsfly.com/?ref=25916" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -323,11 +323,11 @@
 	<div class="bns">
 		<h3>#7</h3>
 		<p>
-			This is <a href="https://cointivert.com/ref/smrket">Cointivert.com</a> 
+			This is <a href="https://cointivert.com/ref/smrket" target="_blank" rel="noreferrer">Cointivert.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>1-6 Satochi Every 15mn </h4>
-		<h3><a href="https://cointivert.com/ref/smrket">JOIN NOW</a></h3>
+		<h3><a href="https://cointivert.com/ref/smrket" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -339,11 +339,11 @@
 	<div class="bns">
 		<h3>#8</h3>
 		<p>
-			This is <a href="https://coinadster.com/?ref=255015">Coinadster.com</a> 
+			This is <a href="https://coinadster.com/?ref=255015" target="_blank" rel="noreferrer">Coinadster.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4>Roll Satochi Every 10mn </h4>
-		<h3><a href="https://coinadster.com/?ref=255015">JOIN NOW</a></h3>
+		<h3><a href="https://coinadster.com/?ref=255015" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -355,11 +355,11 @@
 	<div class="bns">
 		<h3>#9</h3>
 		<p>
-			This is <a href="https://faucetcrypto.com/ref/2056413">Faucetcrypto.com</a> 
+			This is <a href="https://faucetcrypto.com/ref/2056413" target="_blank" rel="noreferrer">Faucetcrypto.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4> 18 Coins Every 30mn </h4>
-		<h3><a href="https://faucetcrypto.com/ref/2056413">JOIN NOW</a></h3>
+		<h3><a href="https://faucetcrypto.com/ref/2056413" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -371,11 +371,11 @@
 	<div class="bns">
 		<h3>#10</h3>
 		<p>
-			This is <a href="https://simplebits.io/ref/L4tmvQbH1IOWy5ro">Simplebits.io</a> 
+			This is <a href="https://simplebits.io/ref/L4tmvQbH1IOWy5ro" target="_blank" rel="noreferrer">Simplebits.io</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4> 5-12 Token Every 30mn </h4>
-		<h3><a href="https://simplebits.io/ref/L4tmvQbH1IOWy5ro">JOIN NOW</a></h3>
+		<h3><a href="https://simplebits.io/ref/L4tmvQbH1IOWy5ro" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -387,11 +387,11 @@
 	<div class="bns">
 		<h3>#11</h3>
 		<p>
-			This is <a href="https://firefaucet.win/ref/smrket">Firefaucet.win</a> 
+			This is <a href="https://firefaucet.win/ref/smrket" target="_blank" rel="noreferrer">Firefaucet.win</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4> Random ACP Every 30mn </h4>
-		<h3><a href="https://firefaucet.win/ref/smrket">JOIN NOW</a></h3>
+		<h3><a href="https://firefaucet.win/ref/smrket" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -403,11 +403,11 @@
 	<div class="bns">
 		<h3>#12</h3>
 		<p>
-			This is <a href="https://litepick.io/?ref=smrket">Litepick.io</a> 
+			This is <a href="https://litepick.io/?ref=smrket" target="_blank" rel="noreferrer">Litepick.io</a> 
 			<br><br>Litecoin Rewards Platform
 		</p>
 		<h4> 250 Litoshi Every 1hr </h4>
-		<h3><a href="https://litepick.io/?ref=smrket">JOIN NOW</a></h3>
+		<h3><a href="https://litepick.io/?ref=smrket" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 	
 		<div class="pub">
 		<Ad2 />
@@ -420,11 +420,11 @@
 	<div class="bns">
 		<h3>#13</h3>
 		<p>
-			This is <a href="https://coinpot.in/?r=366314">Coinpot.in</a> 
+			This is <a href="https://coinpot.in/?r=366314" target="_blank" rel="noreferrer">Coinpot.in</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4> 50 Coins Every 1hr </h4>
-		<h3><a href="https://coinpot.in/?r=366314">JOIN NOW</a></h3>
+		<h3><a href="https://coinpot.in/?r=366314" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -436,11 +436,11 @@
 	<div class="bns">
 		<h3>#14</h3>
 		<p>
-			This is <a href="https://faucet4u.com/?r=47874">Faucet4u.com</a> 
+			This is <a href="https://faucet4u.com/?r=47874" target="_blank" rel="noreferrer">Faucet4u.com</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4> 0.001 USD Every 1hr </h4>
-		<h3><a href="https://faucet4u.com/?r=47874">JOIN NOW</a></h3>
+		<h3><a href="https://faucet4u.com/?r=47874" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 		<Ad2 />
@@ -452,11 +452,11 @@
 	<div class="bns">
 		<h3>#15</h3>
 		<p>
-			This is <a href="https://bits.re/?r=162733">Bits.re</a> 
+			This is <a href="https://bits.re/?r=162733" target="_blank" rel="noreferrer">Bits.re</a> 
 			<br><br>Bitcoin Rewards Platform
 		</p>
 		<h4> 40 Coins Every 1hr </h4>
-		<h3><a href="https://bits.re/?r=162733">JOIN NOW</a></h3>
+		<h3><a href="https://bits.re/?r=162733" target="_blank" rel="noreferrer">JOIN NOW</a></h3>
 
 		<div class="pub">
 			<Ad2 />

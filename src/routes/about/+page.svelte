@@ -11,7 +11,7 @@
 	<h1>About <span style="color: #f2a900;font-size: 2rem;">₿itcoin Street</span></h1>
 
 	<p>
-		This is a <a href="https://github.com/d3j1x/BitcoinStreet/">opensource</a> app. You can make your own by following the link.
+		This is a <a href="https://github.com/d3j1x/BitcoinStreet/" target="_blank" rel="noreferrer">opensource</a> app. You can make your own by following the link.
 	</p>
 
 	<pre>₿itcoin Street</pre>
