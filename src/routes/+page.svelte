@@ -9,7 +9,7 @@
 
 	import Ad from './Ad.svelte';
 
-	import Carousel from './components/Carousel.svelte';
+	
 	
 </script>
 
@@ -24,7 +24,8 @@
 	<Ad />
 </div>
 
-<Carousel />
+
+
 
 
 
@@ -44,11 +45,13 @@
 	</h1>
 
 	<h2>
-		<strong>APP</strong>
+		<strong>❤</strong>
 	</h2>
 
 	<Counter />
 </section>
+
+
 
 
 
