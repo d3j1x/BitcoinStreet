@@ -9,6 +9,8 @@
 
 	import Ad from './Ad.svelte';
 
+
+
 	
 	
 </script>
@@ -41,11 +43,11 @@
 			</picture>
 		</span>
 
-		TO <br />  ₿TC STREET  
+		TO <br />  ₿TC STREET  <br /> ❤
 	</h1>
 
 	<h2>
-		<strong>❤</strong>
+		<strong>APP</strong>
 	</h2>
 
 	<Counter />
