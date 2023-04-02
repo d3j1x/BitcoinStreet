@@ -53,6 +53,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		margin-bottom: 50px;
 		
 	}
 
