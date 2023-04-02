@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import { goto } from '$app/navigation';
+	// import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 
 	// import logo from '$lib/images/svelte-logo.svg';
@@ -26,16 +26,16 @@
   	});
 
 	
-	function refreshPage() {
-    	setTimeout(() => {
-    	  location.reload();
-    	}, 250);
-  	}
+	// function refreshPage() {
+    // 	setTimeout(() => {
+    // 	  location.reload();
+    // 	}, 250);
+  	// }
 
- 	function handleClick() {
-    	goto('/');
-    	refreshPage();
- 	}
+ 	// function handleClick() {
+    // 	goto('/');
+    // 	refreshPage();
+ 	// }
 
 </script>
 
@@ -65,8 +65,11 @@
 			</svg>
 			<ul>
 				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a href="/" on:click|preventDefault={handleClick}>STREET</a>
+					<a href="/">STREET</a>
 				</li>
+				<!-- <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+					<a href="/" on:click|preventDefault={handleClick}>STREET</a>
+				</li> -->
 	
 				<li aria-current={$page.url.pathname.startsWith('/freecoins') ? 'page' : undefined}>
 					<a href="/freecoins">FreeCoins</a>

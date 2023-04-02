@@ -18,7 +18,7 @@
 
 <BitcoinPrice />
 
-<div>
+<div class="pub">
 	<Ad />
 </div>
 
