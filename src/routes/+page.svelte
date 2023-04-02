@@ -9,6 +9,8 @@
 
 	import Ad from './Ad.svelte';
 
+	import Magazine from './components/Magazine.svelte';
+
 
 
 	
@@ -46,14 +48,17 @@
 		TO <br />  ₿TC STREET  <br /> ❤
 	</h1>
 
-	<h2>
+	
+
+	<!-- <h2>
 		<strong>APP</strong>
 	</h2>
 
-	<Counter />
+	<Counter /> -->
+	
 </section>
 
-
+<Magazine />
 
 
 
