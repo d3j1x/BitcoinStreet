@@ -31,9 +31,6 @@
 </div>
 
 
-<Converter />
-
-
 
 <section>
 	<h1>
@@ -56,6 +53,8 @@
 	<Counter /> -->
 	
 </section>
+
+<Converter />
 
 
 
