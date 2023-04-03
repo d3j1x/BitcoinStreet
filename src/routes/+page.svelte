@@ -1,7 +1,9 @@
 <script>
 
 
-	import Counter from './Counter.svelte';
+
+
+	// import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 
@@ -9,7 +11,7 @@
 
 	import Ad from './Ad.svelte';
 
-	import Magazine from './components/Magazine.svelte';
+	import Converter from './components/Converter.svelte';
 
 
 
@@ -29,10 +31,7 @@
 </div>
 
 
-
-
-
-
+<Converter />
 
 
 
@@ -58,7 +57,7 @@
 	
 </section>
 
-<Magazine />
+
 
 
 

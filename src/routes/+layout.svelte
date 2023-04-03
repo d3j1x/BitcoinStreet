@@ -24,9 +24,9 @@
 		<slot />
 	</main>
 
-	<footer>
+	<!-- <footer>
 		<p>WELCOME TO ₿ITCOIN STREET</p>
-	</footer>
+	</footer> -->
 </div>
 
 <style>
@@ -47,7 +47,7 @@
 		box-sizing: border-box;
 	}
 
-	footer {
+	/* footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -63,11 +63,11 @@
 		background: #0077ff;
 		font: 1rem sans-serif;
 		font-weight: bold;
-	}
+	} */
 
-	@media (min-width: 480px) {
+	/* @media (min-width: 480px) {
 		footer {
 			padding: 12px 0;
 		}
-	}
+	} */
 </style>
