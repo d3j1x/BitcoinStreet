@@ -31,7 +31,7 @@
 	<Ad />
 </div>
 
-<div style="margin-top:25px">
+<div class="btcwidget">
 	<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
 </div>
 
@@ -79,12 +79,9 @@
 		width: 100%;
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+	.btcwidget {
+		font-weight: bolder;
+		margin:25px;
 	}
 
 	.welcome img {
