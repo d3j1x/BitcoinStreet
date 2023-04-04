@@ -79,10 +79,15 @@
 		width: 100%;
 	}
 
-	.btcwidget {
-		font-weight: bolder;
-		margin:25px;
+	.welcome {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding: 0 0 calc(100% * 495 / 2048) 0;
 	}
+
+	
 
 	.welcome img {
 		position: absolute;
@@ -90,5 +95,10 @@
 		height: 100%;
 		top: 0;
 		display: block;
+	}
+	
+	.btcwidget {
+		font-weight: bolder;
+		margin:25px;
 	}
 </style>
