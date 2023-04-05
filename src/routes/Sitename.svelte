@@ -31,12 +31,14 @@
 
 .waviy {
   position: relative;
+  font-family:   system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
 }
 
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 23px;
+  font-size: 25px;
   color: yellow;
   text-transform: uppercase;
   animation: flip 4s infinite;
