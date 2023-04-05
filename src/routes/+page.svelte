@@ -61,9 +61,6 @@
 
 <Converter />
 
-<div>
-	<script src="https://cointelegraph.com/news-widget" data-ct-widget-limit="10" data-ct-widget-theme="dark" data-ct-widget-size="tiny" data-ct-widget-priceindex="true" data-ct-widget-images="true" data-ct-widget-currency="USD" data-ct-widget-category="bitcoin,ethereum" data-ct-widget-language="en"></script>
-</div>
 
 
 
