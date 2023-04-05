@@ -31,7 +31,7 @@
 	<Ad />
 </div>
 
-<div style="margin: 25px; font-weight:bolder">
+<div style="margin-top: 25px; font-weight:bold">
 	<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
 </div>
 
@@ -58,7 +58,14 @@
 	
 </section>
 
+
 <Converter />
+
+<div>
+	<script src="https://cointelegraph.com/news-widget" data-ct-widget-limit="10" data-ct-widget-theme="dark" data-ct-widget-size="tiny" data-ct-widget-priceindex="true" data-ct-widget-images="true" data-ct-widget-currency="USD" data-ct-widget-category="bitcoin,ethereum" data-ct-widget-language="en"></script>
+</div>
+
+
 
 
 
