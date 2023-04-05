@@ -180,7 +180,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	padding: 12px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	
 }
 
@@ -188,8 +188,10 @@ footer p {
 
 	color: white;
 	background: #0077ff;
+	border-radius: 8px;
 	font: 1rem sans-serif;
 	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 @media (min-width: 480px) {
