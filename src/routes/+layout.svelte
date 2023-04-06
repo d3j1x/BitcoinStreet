@@ -2,6 +2,7 @@
 
 	import Header from './Header.svelte';
 	import Sitename from './Sitename.svelte';
+	import Social from './Social.svelte';
 	import './styles.css';
 
 	// const script = document.createElement('script');
@@ -23,6 +24,8 @@
 	<main>
 		<slot />
 	</main>
+
+	<Social />
 
 	<!-- <footer>
 		<p>WELCOME TO ₿ITCOIN STREET</p>
