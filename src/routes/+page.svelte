@@ -53,7 +53,7 @@
 			</picture>
 		</span> -->
 	
-		TO<br />₿TC STREET<br />❤
+		<span style="color: blue;">TO</span><br /><span style="color: #f2a900;">₿TC </span>STREET<br />❤
 	</h1>
 
 	</div>

@@ -41,7 +41,7 @@
     position: relative;
     color: gold;
     letter-spacing: 5px;
-    font-size: 2.5em;
+    font-size: 2.63em;
     font-weight:bold;
     text-transform: uppercase;
     animation: typing 8s steps(9) infinite;
@@ -57,7 +57,7 @@
     }
     30%,60%
     {
-        width:239px;
+        width:240px;
     }
 }
 </style>
