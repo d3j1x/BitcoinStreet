@@ -5,7 +5,7 @@
 
 	// import logo from '$lib/images/svelte-logo.svg';
 	import logo from '$lib/images/logo.png';
-	import logopen from '$lib/images/logopen.png';
+	import logopen from '$lib/images/copyright.png';
 	// import github from '$lib/images/github.svg';
 
 	import LivePrice from './components/LivePrice.svelte';
@@ -92,7 +92,7 @@
 		</div> -->
 		<div class="corner">
 			<a href="https://github.com/d3j1x/BitcoinStreet/" target="_blank" rel="noreferrer">
-				<img src={logopen} alt="OpenSource" />
+				<img style="background:white;padding:1px;border-radius:50%" src={logopen} alt="OpenSource" />
 			</a>
 		</div>
 	</header>
