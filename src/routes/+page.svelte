@@ -4,8 +4,8 @@
 
 
 	// import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	// import welcome from '$lib/images/svelte-welcome.webp';
+	// import welcome_fallback from '$lib/images/svelte-welcome.png';
 
 	import BitcoinPrice from './components/BitcoinPrice.svelte';
 
@@ -14,7 +14,7 @@
 
 	import Converter from './components/Converter.svelte';
 
-
+	import Welcome from './components/Welcome.svelte';
 
 	
 	
@@ -36,25 +36,35 @@
 </div>
 
 
+
 <section>
+
+	<!-- <div class="loader">
+		<h2>WELCOME</h2>
+	</div> -->
+	<div class="c" >
+		<Welcome />
+
 	<h1>
-		<span class="welcome">
+		<!-- <span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
-		</span>
-
-		TO <br />  ₿TC STREET  <br /> ❤
+		</span> -->
+	
+		TO<br />₿TC STREET<br />❤
 	</h1>
 
+	</div>
+	
 	
 
 	<!-- <h2>
-		<strong>APP</strong>
-	</h2>
+		TO<br />₿TC STREET<br />❤
+	</h2> -->
 
-	<Counter /> -->
+	<!-- <Counter /> --> 
 	
 </section>
 
@@ -76,14 +86,28 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 0.6;
+		flex: 1;
+		
+	}
+
+	.c {
+		border: 2px dotted lawngreen;
+		border-radius: 20%; 
+		margin:20px 0;
+		background:black;
+		padding: 0 10px;
 	}
 
 	h1 {
 		width: 100%;
+
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 2.66rem;
+		
+	
 	}
 
-	.welcome {
+	/* .welcome {
 		display: block;
 		position: relative;
 		width: 100%;
@@ -99,7 +123,61 @@
 		height: 100%;
 		top: 0;
 		display: block;
-	}
+	} */
+
+	/* .loader
+{
+    position: relative;
+}
+
+.loader::before
+{
+    content: "";
+    position: relative;
+    top: 0;
+    right:0;
+    width: 2px;
+    height: 100%;
+    background: #03e9f4;
+    animation: blinkCursor 0.8s step(3) infinite;
+}
+
+@keyframes blinkCursor
+{
+    0%,75%
+    {
+        opacity: 1;
+    }
+    76%,100%
+    {
+        opacity: 0;
+    }
+
+}
+
+.loader h2
+{
+    position: relative;
+    color: #03e9f4;
+    letter-spacing: 5px;
+    font-size: 4em;
+    text-transform: uppercase;
+    animation: typing 8s steps(10) infinite;
+    overflow: hidden;
+
+}
+
+@keyframes typing
+{
+    0%,90%,100%
+    {
+        width: 0;
+    }
+    30%,60%
+    {
+        width:420.88px;
+    }
+} */
 	
 	
 	
