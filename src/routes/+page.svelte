@@ -65,11 +65,11 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
-		border: 4px solid lawngreen;
-		border-radius: 20%; 
-		margin:20px auto;
+		 border: 2px dotted lawngreen;
+		/* border-radius: 20%;  */
+		margin:8px auto;
 		background: black;
-		padding: 20px;
+		padding: 2px;
 		
 		
 	}

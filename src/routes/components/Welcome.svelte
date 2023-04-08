@@ -12,9 +12,9 @@
     .sign{
         width: 100%;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-		font-size: 3rem;
+		font-size: 2.5rem;
+        letter-spacing: 2px;
         text-align: center;
-        letter-spacing: 5px;
         font-weight: bold;
     }
     .loader
