@@ -31,43 +31,21 @@
 	<Ad />
 </div>
 
+<section>
+	
+	<Welcome />
+
+</section>
+
+
 <div style="margin-top: 25px; font-weight:bold">
 	<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
 </div>
 
 
 
-<section>
-
-	<!-- <div class="loader">
-		<h2>WELCOME</h2>
-	</div> -->
-	<div class="c" >
-		<Welcome />
-
-	<h1>
-		<!-- <span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span> -->
-	
-		<span style="color: blue;">TO</span><br /><span style="color: #f2a900;">₿TC </span>STREET<br />❤
-	</h1>
-
-	</div>
-	
-	
-
-	<!-- <h2>
-		TO<br />₿TC STREET<br />❤
-	</h2> -->
-
-	<!-- <Counter /> --> 
-	
-</section>
-
+<div style="margin-top: 20px;">
+</div>
 
 <Converter />
 
@@ -86,26 +64,17 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 1;
-		
-	}
-
-	.c {
-		border: 2px dotted lawngreen;
+		flex: 0.6;
+		border: 4px solid lawngreen;
 		border-radius: 20%; 
-		margin:20px 0;
-		background:black;
-		padding: 0 10px;
-	}
-
-	h1 {
-		width: 100%;
-
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-		font-size: 2.66rem;
+		margin:20px auto;
+		background: black;
+		padding: 20px;
 		
-	
+		
 	}
+
+	
 
 	/* .welcome {
 		display: block;

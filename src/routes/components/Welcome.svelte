@@ -2,13 +2,26 @@
 <div class="loader">
     <h2>WELCOME</h2>
 </div>
+<span class="sign">	
+    <span style="font-size: 2.5rem;"><span style="color: #0077ff;">TO </span>❤</span>
+    <br /><span style="color: #f2a900; font-family: fantasy;">₿TC </span> <span style="font-family: fantasy;">STREET</span>
+</span>
 
 
 <style>
+    .sign{
+        width: 100%;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 3rem;
+        text-align: center;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
     .loader
 {
     position: relative;
     padding:0;
+
 }
 
 .loader::before
@@ -41,7 +54,7 @@
     position: relative;
     color: gold;
     letter-spacing: 5px;
-    font-size: 2.63em;
+    font-size: 1.7em;
     font-weight:bold;
     text-transform: uppercase;
     animation: typing 8s steps(9) infinite;
@@ -57,7 +70,7 @@
     }
     30%,60%
     {
-        width:240px;
+        width:170px;
     }
 }
 </style>
