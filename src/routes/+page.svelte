@@ -66,8 +66,8 @@
 		align-items: center;
 		flex: 0.6;
 		 border: 2px dotted lawngreen;
-		/* border-radius: 20%;  */
-		margin:8px auto;
+		border-radius: 8px; 
+		margin-top: 20px;
 		background: black;
 		padding: 2px;
 		
