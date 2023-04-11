@@ -31,11 +31,14 @@
 	
 	<Welcome />
 
+	
+	<div class="pub">
+		<Ad />
+	</div>
+
 </section>
 
-<div class="pub">
-	<Ad />
-</div>
+
 
 <BitcoinPrice />
 
