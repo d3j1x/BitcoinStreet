@@ -3,8 +3,9 @@
     <h2>WELCOME</h2>
 </div>
 <span class="sign">	
-    <span style="font-size: 2.5rem;"><span style="color: #0077ff;">TO </span>❤</span>
-    <br /><span style="color: #f2a900; font-family: fantasy;">₿TC </span> <span style="font-family: fantasy;">STREET</span>
+    <span style="color: #0077ff;">TO ❤</span>
+    
+    <span style="color: lawngreen;">₿TC STREET</span>
 </span>
 
 
@@ -12,10 +13,11 @@
     .sign{
         width: 100%;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-		font-size: 2.5rem;
+		font-size: 1.6rem;
         letter-spacing: 2px;
         text-align: center;
-        font-weight: bold;
+        font-weight: bolder;
+       
     }
     .loader
 {
