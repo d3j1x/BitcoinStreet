@@ -3,9 +3,9 @@
     <h2>WELCOME</h2>
 </div>
 <span class="sign">	
-    <span style="color: #0077ff;">TO ❤</span>
-    
-    <span style="color: lawngreen;">₿TC STREET</span>
+    <span style="color:lawngreen ;">TO </span>
+    <span>❤</span>
+    <span>₿TC STREET</span>
 </span>
 
 
@@ -17,6 +17,8 @@
         letter-spacing: 2px;
         text-align: center;
         font-weight: bolder;
+        
+		
        
     }
     .loader
