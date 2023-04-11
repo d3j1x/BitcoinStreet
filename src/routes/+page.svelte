@@ -31,6 +31,7 @@
 	
 	<Welcome />
 
+	<div style="height:10px"></div>
 	
 	<div class="pub">
 		<Ad />
