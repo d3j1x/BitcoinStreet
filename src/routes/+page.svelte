@@ -25,27 +25,25 @@
 	<meta name="description" content="BTC LIVE PRICE $ | Crypto, Bitcoin News | Crypto Converter | Top Free Faucet | Trusted Earnings Website | Mining - Trading - Investing | Convert Btc Satoshi To USD" />
 </svelte:head>
 
-<div class="text-column" style="padding: 10px;">
+
 
 <section>
 	
 	<Welcome />
 
 	<div style="height:10px"></div>
-	
-	<div class="pub">
-		<Ad />
-	</div>
 
 </section>
 
+<div class="pub">
+	<Ad />
+</div>
+
+
+<div class="text-column" style="padding: 10px;">
 
 
 <BitcoinPrice />
-
-
-
-
 
 
 <div style="margin-top: 25px; font-weight:bold">
