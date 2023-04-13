@@ -76,10 +76,10 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
-		border: 2px dotted darkred;
+		
 		
 		margin-top: 20px;
-		background: black;
+		
 		padding: 2px;
 		border-radius: 8px; 
         
