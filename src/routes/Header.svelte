@@ -171,7 +171,8 @@
 		display: flex;
 		justify-content: center;
 		/* --background: rgba(255, 255, 255, 0.7); */
-		--background: rgba(255, 255, 255, 0.2);
+		--background: green;
+		
 	}
 
 	svg {
@@ -221,10 +222,11 @@
 		align-items: center;
 		padding: 0 0.5rem;
 		/* color: var(--color-text); */
-		color: white;
-		font-weight: 800;
+		color: black;
+		/* font-weight: 800; */
 		/* font-size: 0.8rem; */
-		font-size: 0.9rem;
+		font-size: 1.2rem;
+		font-family:fantasy;
 		/* text-transform: uppercase; */
 		letter-spacing: 0.1em;
 		text-decoration: none;
@@ -233,6 +235,6 @@
 
 	a:hover {
 		/* color: var(--color-theme-1); */
-		color: blue;
+		color: yellow;
 	}
 </style>

@@ -48,6 +48,7 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
+		
 	}
 
 	/* footer {
