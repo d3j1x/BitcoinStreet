@@ -223,12 +223,12 @@
 		padding: 0 0.5rem;
 		/* color: var(--color-text); */
 		color: black;
-		/* font-weight: 800; */
+		font-weight: 800;
 		/* font-size: 0.8rem; */
 		font-size: 1.2rem;
-		font-family:fantasy;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		/* text-transform: uppercase; */
-		letter-spacing: 0.1em;
+		letter-spacing: 1px;
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}
@@ -236,5 +236,6 @@
 	a:hover {
 		/* color: var(--color-theme-1); */
 		color: yellow;
+		font-weight: 500;
 	}
 </style>
