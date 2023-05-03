@@ -54,5 +54,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-weight: bold;
     }
+
+    @media (min-width: 700px) {
+		span {
+			/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+			font-size: 2rem;
+			letter-spacing: 3px;
+		}
+	}
 </style>

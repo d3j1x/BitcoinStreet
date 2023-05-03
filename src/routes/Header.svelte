@@ -223,19 +223,33 @@
 		padding: 0 0.5rem;
 		/* color: var(--color-text); */
 		color: black;
-		font-weight: 800;
+		font-weight: 700;
 		/* font-size: 0.8rem; */
-		font-size: 1.2rem;
-		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-size: 1rem;
+		font-family: 'Kanit', sans-serif;
 		/* text-transform: uppercase; */
-		letter-spacing: 1px;
+		/* letter-spacing: 1px; */
 		text-decoration: none;
 		transition: color 0.2s linear;
+	}
+	@media (min-width: 390px) {
+		nav a {
+			font-size: 1.2rem;
+			/* letter-spacing: 1px; */
+		}
+	}
+
+	@media (min-width: 700px) {
+		nav a {
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			font-size: 2rem;
+			letter-spacing: 3px;
+		}
 	}
 
 	a:hover {
 		/* color: var(--color-theme-1); */
 		color: yellow;
-		font-weight: 500;
+		font-weight: 600;
 	}
 </style>

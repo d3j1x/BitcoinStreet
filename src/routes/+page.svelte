@@ -29,9 +29,9 @@
 
 <section>
 	
-	<Welcome />
+	<!-- <Welcome />
 
-	<div style="height:10px"></div>
+	<div style="height:10px"></div> -->
 
 </section>
 
@@ -40,7 +40,7 @@
 </div>
 
 
-<div class="text-column" style="padding: 10px;">
+<div style="padding: 10px;">
 
 
 <BitcoinPrice />
@@ -55,11 +55,11 @@
 <div style="margin-top: 20px;">
 </div>
 
-<Converter />
+
 
 
 </div>
-
+<Converter />
 
 
 
