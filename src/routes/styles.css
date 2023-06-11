@@ -153,12 +153,13 @@ pre {
 	align-items: center;
 	margin: 2rem;
 	margin-bottom: 1rem; */
-	border: 5px solid  #0077ff;
+	/* border: 5px solid  #0077ff; */
+	border: 2px solid  #d3d3d3;
 	border-radius: 8px;
-	box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3);
+	/* box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3); */
 	/* background: rgba(0, 0, 0, 0.8); */
 	background: rgba(0, 0, 0, 0.8);
-	color: yellow;
+	color: greenyellow;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-weight: bolder;	
   }
@@ -189,8 +190,9 @@ footer {
 
 footer p {
 
-	color: white;
-	background: #0077ff;
+	color: green;
+	/* background: #0077ff; */
+	background: yellow;
 	border-radius: 8px;
 	font: 1rem sans-serif;
 	font-weight: bold;

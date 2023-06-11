@@ -43,6 +43,7 @@
       border-radius: 8px;
       background: rgba(0, 0, 0, 0.8);
       
+      
     }
   
     .bitcoin-price__input {

@@ -28,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
 
 .waviy {
   position: relative;

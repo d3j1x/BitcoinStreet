@@ -251,7 +251,7 @@
 
 	a:hover {
 		/* color: var(--color-theme-1); */
-		color: yellow;
-		font-weight: 600;
+		color: wheat;
+		font-weight: 300;
 	}
 </style>
