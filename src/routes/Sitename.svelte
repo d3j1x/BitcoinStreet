@@ -13,7 +13,7 @@
 <span style="--i:9">s</span>
 <span style="--i:10">t</span>
 <span style="--i:11">r</span>
-<span style="--i:12">Ǝ</span>
+<span style="--i:12">e</span>
 <span style="--i:13">e</span>
 <span style="--i:14">t</span>
   </div>
@@ -24,6 +24,7 @@
 
 #loading {
   background-color: black;
+  /* background-color: rgba(0, 0, 0, 0.8); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +54,7 @@
 @media (min-width: 700px) {
     .waviy span {
 		
-			font-size: 2rem;
+			font-size: 2.5rem;
 			letter-spacing: 3px;
 		}
 	}

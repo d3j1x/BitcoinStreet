@@ -108,6 +108,7 @@
  	.sticky {
     	position: sticky;
     	top: 0;
+		
     	/* background-color: #006400; */
     	/* padding: 10px; */
     	/* border-bottom: 5px solid #006400; */
@@ -118,6 +119,7 @@
 		display: flex;
 		justify-content: space-between;
 		background-color: black;
+		
 		border-bottom: 5px solid black;
 	}
 

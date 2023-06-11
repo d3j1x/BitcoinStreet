@@ -59,9 +59,10 @@ body {
 
 	/* background-color: #4d4855;
 	background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%); */
-	background-color: #130f40;
+	/* background-color: #130f40; */
 	/* background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); */
-	background-image: linear-gradient(315deg, blue 0%, #000000 74%);
+	background-image: linear-gradient(315deg, darkgreen 0%, #000000 74%);
+	
 
 	
 
@@ -155,8 +156,9 @@ pre {
 	border: 5px solid  #0077ff;
 	border-radius: 8px;
 	box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3);
+	/* background: rgba(0, 0, 0, 0.8); */
 	background: rgba(0, 0, 0, 0.8);
-	color: red;
+	color: yellow;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-weight: bolder;	
   }
