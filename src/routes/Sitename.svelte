@@ -23,7 +23,7 @@
 <style>
 
 #loading {
-  background-color: black;
+  background-color: darkgreen;
   /* background-color: rgba(0, 0, 0, 0.8); */
   display: flex;
   justify-content: center;

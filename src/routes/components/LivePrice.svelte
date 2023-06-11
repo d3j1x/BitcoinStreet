@@ -51,6 +51,7 @@
         color:#3DFF33;
         font-size: 25px;
         background-color: black;
+        
         display: flex;
         justify-content: center;
         align-items: center;
