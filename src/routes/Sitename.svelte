@@ -23,7 +23,7 @@
 <style>
 
 #loading {
-  background-color: darkgreen;
+  background-color: black;
   /* background-color: rgba(0, 0, 0, 0.8); */
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@
   position: relative;
   display: inline-block;
   font-size: 25px;
-  color: yellow;
+  color: white;
   text-transform: uppercase;
   animation: flip 4s infinite;
   animation-delay: calc(.2s * var(--i))

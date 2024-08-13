@@ -49,7 +49,7 @@
     .bitcoin-price__input {
       padding: 0.5rem;
       font-size: 1.2rem;
-      font-weight: bold;
+      font-weight: semibold;
       border: 2px solid #1c1c1e;
       border-radius: 8px;
       text-align: center;
